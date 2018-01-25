@@ -53,9 +53,9 @@ class Globe extends View {
 				this.draw();
 				this.app.urlCallback = (level, x, y) => {
 					if (CONFIG.globe.tileLayer === "darkGray") {
-						return `http://s.basemaps.cartocdn.com/dark_all/${level}/${x}/${y}.png`;
+						return `https://s.basemaps.cartocdn.com/dark_all/${level}/${x}/${y}.png`;
 					}
-					return `http://s.basemaps.cartocdn.com/light_nolabels/${level}/${x}/${y}.png`;
+					return `https://s.basemaps.cartocdn.com/light_nolabels/${level}/${x}/${y}.png`;
 				};
 
 				this.transitionsSettings = {
@@ -510,27 +510,27 @@ class Globe extends View {
 				switch (this.value) {
 					case "lightGray":
 						globeView.app.urlCallback = (level, x, y) => {
-							return `http://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/${level}/${y}/${x}`;
+							return `https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/${level}/${y}/${x}`;
 						};
 						break;
 					case "lightGray_nolabel":
 						globeView.app.urlCallback = (level, x, y) => {
-							return `http://s.basemaps.cartocdn.com/light_nolabels/${level}/${x}/${y}.png`;
+							return `https://s.basemaps.cartocdn.com/light_nolabels/${level}/${x}/${y}.png`;
 						};
 						break;
 					case "esri":
 						globeView.app.urlCallback = (level, x, y) => {
-							return `http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/${level}/${y}/${x}`;
+							return `https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/${level}/${y}/${x}`;
 						};
 						break;
 					case "dark":
 						globeView.app.urlCallback = (level, x, y) => {
-							return `http://s.basemaps.cartocdn.com/dark_all/${level}/${x}/${y}.png`;
+							return `https://s.basemaps.cartocdn.com/dark_all/${level}/${x}/${y}.png`;
 						};
 						break;
 					case "dark_nolabel":
 						globeView.app.urlCallback = (level, x, y) => {
-							return `http://s.basemaps.cartocdn.com/dark_nolabels/${level}/${x}/${y}.png`;
+							return `https://s.basemaps.cartocdn.com/dark_nolabels/${level}/${x}/${y}.png`;
 						};
 						break;
 				}
