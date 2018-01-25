@@ -1,0 +1,651 @@
+/**
+ * This file contains CSS style code for the page layout and views.
+ * Some style related parts like visual mappings are directly
+ * controlled by the views.
+*/
+
+/********** COLOR VARIABLES **********/
+* {
+    --pageBgColor: #eee;
+    --pageColor: #111;
+    --scrollbarBgColor: #aaa;
+    --scrollbarThumbColor: #666;
+    --toolbarSeparatorColor:#eee;
+    --toolbarButtonColor: #888;
+    --accentColor: steelblue;
+    --viewBgColor: #fff;
+    --viewColor: #111;
+    --viewBorderColor: #eee;
+    --viewHeaderColor: #555;
+    --viewButtonColor: #666;
+    --viewSettingsBgColor: rgba(255, 255, 255, 0.8);
+    --tooltipColor: #fff;
+    --tooltipBgColor: rgba(0, 0, 0, 0.75);
+    --draggingRectColor: #000;
+    --textShadow: -1px -1px 1px #fff,
+                  -1px  1px 1px #fff,
+                   1px -1px 1px #fff,
+                  -1px -1px 1px #fff;
+    --disabledColor: #ddd;
+	--disabledBorderColor: #ddd;
+	--disabledBgColor: #fff;
+}
+
+/* z-index ordered by importance */
+#infoText {
+    z-index: 7;
+}
+.alert {
+    z-index: 6;
+}
+#toolbar {
+    z-index: 5;
+}
+.viewInfo {
+    z-index: 4;
+}
+.viewSettings {
+    z-index: 3;
+}
+.viewTooltip {
+    z-index: 2;
+}
+.leaflet-overlay-pane canvas {
+    z-index: 1;
+}
+
+
+/********** GENERAL LAYOUT **********/
+body {
+    font: 13px sans-serif;
+    overflow-y: scroll;
+}
+
+div {
+    margin: 0px;
+    padding: 0px;
+}
+
+svg {
+    font: 11px sans-serif;
+}
+
+/* prevent page scrolling from interfering with view interaction */
+svg, canvas, .draghandle, .drag-handle {
+    touch-action: none;
+}
+
+
+
+/********** SCROLL BARS **********/
+::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+    background-color: var(--pageBgColor);
+}
+
+::-webkit-scrollbar-thumb {
+    width: 13px;
+    background-color: var(--scrollbarBgColor);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    width: 20px;
+    background-color: var(--scrollbarThumbColor);
+}
+
+@media only screen and (min-width: 768px) {
+    /* make scrollbar smaller for desktops */
+    ::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        width: 3px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        width: 10px;
+    }
+}
+
+
+
+/********** PAGE LAYOUT **********/
+html, #pageContainer, #viewContainer, input, select, .navbar-collapse, .navbar-header {
+	background-color: var(--pageBgColor) !important;
+	color: var(--pageColor) !important;
+}
+
+#pageContainer {
+    height: 100%;
+    text-align: center;
+}
+
+#viewContainer {
+    /* margin for nav bar */
+    margin-top: 52px;
+}
+
+#infoText {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    padding: 20px;
+    background-color: var(--viewBgColor);
+    color: var(--viewColor);
+    word-wrap: normal;
+    word-break: normal;
+    white-space: normal;
+    text-align: center;
+    font-size: 16px;
+    overflow: scroll;
+}
+
+#infoText p {
+    max-width: 700px;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+#infoText i {
+    color: var(--accentColor);
+}
+
+#infoText .close {
+    padding: 25px;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+    color: var(--accentColor);
+    opacity: 1;
+}
+
+#infoText .contributorLogo {
+    width: 120px;
+    height: 140px;
+    text-align: center !important;
+    display: inline-block;
+}
+
+#infoText .contributorLogo a {
+    color: var(--pageColor);
+    font-size: 12px;
+}
+
+#infoText .contributorLogo a:hover {
+    text-decoration: none;
+    color: var(--accentColor);
+}
+
+#infoText .contributorLogo img {
+    width: 80px;
+    height: 80px;
+}
+
+
+
+/********** TOOLBAR **********/
+#toolbar {
+    border: none !important;
+    margin: 0px !important;
+    height: 50px !important;
+}
+
+#toolbar .navbar-brand {
+	color: var(--pageColor) !important;
+}
+
+#toolbar .navbar-brand > img {
+    height: 100%;
+    width: auto;
+}
+
+#toolbarRight {
+    padding-right: 20px;
+}
+
+.toolbarButton {
+    padding: 4px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.toolbarButton i {
+    font-size: 20px;
+}
+
+.toolbarSeparator {
+    margin: 10px 2px 10px 2px !important;
+    padding: 15px 0px 15px 0px !important;
+    border-left: 2px solid var(--toolbarSeparatorColor);
+}
+
+
+
+/********** VIEWS **********/
+.viewCont {
+    position: relative;
+    padding: 0px;
+    border: 3px solid var(--viewBorderColor);
+    background-color: var(--viewBgColor);
+    /* prevent text selection */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.viewHeader {
+    flex: none;
+    height: 30px;
+    margin: 0px;
+    padding: 2px 2px 2px 10px;
+    border-bottom: 4px solid var(--viewBorderColor);
+    text-align: left;
+    font-size: 18px;
+    color: var(--viewHeaderColor);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.viewHeader > span > i {
+    color: var(--accentColor);
+}
+
+.viewHeader i {
+    color: var(--viewButtonColor);
+}
+
+.view {
+    width: 100%;
+    flex: auto;
+    left: 0px;
+    color: var(--viewColor);
+    /* overwrite this property if content should be scrolled in a view */
+    overflow: hidden;
+}
+
+.viewSettings, .viewInfo {
+    position: absolute;
+    top: 30px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 5px !important;
+    word-wrap: normal;
+    word-break: normal;
+    white-space: normal;
+    overflow: auto;
+}
+
+.viewSettings {
+    background-color: var(--viewSettingsBgColor);
+}
+
+.viewSettings label {
+    padding-top: 12px;
+    display: block;
+}
+
+.viewSettings input[type="number"] {
+    text-align: right;
+}
+
+.viewInfo {
+    background-color: var(--viewSettingsBgColor);
+    font-size: 14px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.viewInfo p {
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.viewInfo i {
+    color: var(--accentColor);
+}
+
+.draggingRectangleSVG {
+    position: absolute;
+    pointer-events: none;
+}
+
+.draggingRectangle {
+    stroke: var(--draggingRectColor);
+    stroke-linecap: butt;
+    stroke-width: 2px;
+    stroke-opacity: 0.5;
+    fill: none;
+}
+
+.noItemInfo {
+    text-align: center;
+    font-size: 16px;
+    color: var(--viewColor);
+    text-shadow: var(--textShadow);
+}
+
+
+
+/********** ALERTS **********/
+.alert {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    right: 20px;
+    width: 90%;
+    max-width: 700px;
+}
+
+
+
+/********** TOOLTIPS **********/
+.viewTooltip {
+    position: fixed;
+    line-height: 1;
+    padding: 6px;
+    background: var(--tooltipBgColor);
+    color: var(--tooltipColor);
+    pointer-events: none !important;
+}
+
+
+
+/********** BUTTONS & SELECTS **********/
+.windowButton {
+    background: none;
+    border: none;
+}
+
+.windowButton {
+    width: 25px !important;
+    height: 25px !important;
+    font-size: 20px !important;
+    position: absolute;
+    top: 1px;
+}
+
+.windowButton i {
+    opacity: 0.35;
+}
+
+.windowButton i:hover {
+    opacity: 0.85;
+}
+
+.disabled, .disabled:hover, select:disabled, input:disabled {
+    color: var(--disabledColor) !important;
+    border-color: var(--disabledBorderColor) !important;
+    background-color: var(--disabledBgColor) !important;
+    cursor: no-drop !important;
+}
+
+
+
+/********** TIMELINE **********/
+.timeline {
+    --timelineAxisColor: #111;
+    fill: var(--timelineAxisColor);
+}
+
+.area {
+    clip-path: url(#clip);
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: var(--timelineAxisColor);
+    shape-rendering: crispEdges;
+}
+
+.brush .extent, .brushExtent {
+    stroke: var(--draggingRectColor);
+    stroke-opacity: 0.5;
+    stroke-width: 1px;
+    fill: var(--accentColor);
+    fill-opacity: 0.05;
+    shape-rendering: crispEdges;
+}
+
+
+
+/********** MAP **********/
+.map {
+	--mapTextColor: #111;
+	--mapButtonBgColor: #fff;
+	--mapButtonBorderColor: #666;
+	background-color: transparent !important;
+}
+
+.region {
+    stroke: none;
+}
+
+.leaflet-overlay-pane canvas {
+    pointer-events: none;
+}
+
+.leaflet-top.leaflet-right, .leaflet-control-attribution {
+    pointer-events: none !important;
+    background: none !important;
+    text-shadow: var(--textShadow);
+}
+
+.leaflet-control-attribution a {
+    pointer-events: auto !important;
+}
+
+.leaflet-control-boxzoom {
+    width: 30px !important;
+    height: 30px !important;
+    padding: auto !important;
+    border: 1px solid var(--mapButtonBorderColor) !important;
+    border-radius: 7px !important;
+    background-color: var(--mapButtonBgColor) !important;
+    font-size: 20px !important;
+    cursor: pointer !important;
+    opacity: 0.5;
+}
+
+.leaflet-control-boxzoom:hover {
+    opacity: 1;
+}
+
+.leaflet-zoom-box {
+    background: none;
+    border: 2px solid var(--draggingRectColor);
+}
+
+
+
+/********** GRAPH - no styles for this view */
+
+
+
+/********** MATRIX **********/
+.matrix > canvas {
+    cursor: crosshair;
+}
+
+
+
+/********** FILTER INFO **********/
+.filterInfo {
+    --svgBgColor: #87CEFA;
+    --svgBgHover: #000;
+    --svgTextColor: #111;
+
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+}
+
+.filterInfo h4 {
+    background: url("./img/grayPixel.jpg") repeat-x center center;
+    margin: 10px 12px 3px 12px;
+}
+.filterInfo h4 span {
+    padding: 0px 12px 0px 12px;
+    background: var(--viewBgColor);
+}
+
+.filterInfo h4 a {
+    color: var(--viewHeaderColor);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+svg.filterInfoSVG > text {
+    fill: var(--svgTextColor);
+    font-size: 11.5px;
+    font-weight: normal;
+}
+
+svg.filterInfoBar > .border {
+    stroke: var(--svgBgColor);
+    stroke-width: 1px;
+    fill: none;
+}
+
+svg.filterInfoBar > .bar, svg.filterInfoDistribution > .barChartBar {
+    fill: var(--svgBgColor);
+}
+
+svg.filterInfoDistribution > .barChartBar:hover {
+    fill: var(--svgBgHover);
+}
+
+
+
+/********** SETTINGS **********/
+#settingsPanelContainer {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.settingsPanel {
+    padding: 10px;
+    width: 100%;
+    flex: auto;
+    left: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.settingsPanel hr {
+    margin: 10px 0px 10px 0px;
+}
+
+.settingsPanel label {
+    margin: 0px;
+    padding: 5px 15px 0px 5px;
+    text-align: right;
+}
+
+.settingsPanel input, .settingsPanel select {
+    width: 100%;
+    height: 25px !important;
+    margin: 2px auto 2px 5px;
+    padding: 2px;
+}
+
+.settingsPanel #visframeworkPanel button {
+    padding: 5px 10px;
+    font-size: 1.2em;
+    display: inline;
+    background: none;
+    border: none;
+}
+
+.settingsArrow {
+    display: block;
+    margin: auto;
+    width: 80px;
+    height: 20px;
+}
+
+.settingsPanel .panel {
+    margin-bottom: 0px;
+}
+
+.settingsPanel .panel-heading {
+    padding: 5px;
+}
+
+.settingsPanel .panel-footer {
+    display: none;
+}
+
+.settingsPanel label > input {
+    visibility: hidden;
+    position: absolute;
+}
+
+.settingsPanel label > input + div {
+     cursor: pointer;
+     border: 2px solid transparent;
+}
+
+.settingsPanel label > input:checked + div {
+    border: 2px solid var(--accentColor);
+}
+
+.settingsPanel div > img:not(.settingsArrow) {
+    filter: drop-shadow(0px 0px 5px var(--accentColor));
+}
+
+.settingsPanel label > input:disabled + div > img {
+    filter: grayscale(100%);
+    opacity: 0.4;
+}
+
+.disabledPanel {
+    pointer-events: none;
+    opacity: 0.4;
+    cursor: no-drop;
+}
+
+.graphItem, .simulationItem {
+    box-sizing: border-box;
+    text-align: center;
+    height: 110px;
+    margin: 0px;
+}
+
+.graphItem {
+    width: 150px;
+}
+
+.simulationItem {
+    width: 190px;
+}
+
+#settingsPanelContainer .panel,
+#settingsPanelContainer .panel-heading,
+#settingsPanelContainer .panel-body,
+#settingsPanelContainer .panel-footer,
+#settingsPanelContainer hr,
+#settingsPanelContainer .modal-header,
+#settingsPanelContainer .modal-body,
+#settingsPanelContainer .modal-footer,
+#settingsPanelContainer textarea {
+	background-color: var(--viewBgColor) !important;
+	color: var(--viewColor) !important;
+	border-color: var(--viewBorderColor) !important;
+}
+
+#settingsPanelContainer .panel-heading {
+	background-color: var(--viewBorderColor) !important;
+}

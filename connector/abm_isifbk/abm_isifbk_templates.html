@@ -1,0 +1,184 @@
+<div id="isifbkSettings" class="col-sm-12">
+
+	<div id="isifbkSimulationLoginView" style="display: none;">
+		<div class="row">
+			<label class="col-sm-5">Username</label>
+			<div class="col-sm-3">
+				<input style="margin: 2px auto 2px 0px;" class="form-control" id="isifbkUsername">
+			</div>
+		</div>
+
+		<div class="row">
+			<label class="col-sm-5">Password</label>
+			<div class="col-sm-3">
+				<input style="margin: 2px auto 2px 0px;" class="form-control" id="isifbkPassword" type="password">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-offset-5 col-sm-3">
+				<button type="button" class="btn btn-primary btn-block pull-right" id="isifbkLogin">Login</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="isifbkSimulationListView" style="display: none;">
+	<div class="row">
+		<label class="col-sm-5">Simulation</label>
+		<div class="col-sm-7">
+			<select id="isifbkIdSelect" size="1" disabled>
+			</select>
+		</div>
+	</div>
+</div>
+
+<div id="isifbkSimulationEditView" style="display: none;">
+	<div class="row" style="margin: 10px 0px 5px 0px">
+		<label class="col-sm-5">Simulation Information</label>
+		<hr>
+	</div>
+
+	<div class="row">
+		<label class="col-sm-5">Status</label>
+		<div class="col-sm-7">
+			<div id="isifbkSimulationProgress" class="progress progress-striped active" style="margin: 0px">
+				<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="45" aria-valuemax="100" style="width: 100%; text-align: center;">
+					<span id="isifbkProgressText">Running</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-offset-5 col-sm-7">
+			<button id="isifbkInfo" type="button" class="btn btn-info pull-right" data-toggle="modal" data-target="#isifbkInformationDialog">
+				<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+			</button>
+			<button id="isifbkDelete" type="button" class="btn btn-danger  pull-right">
+				<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+			</button>
+		</div>
+	</div>
+</div>
+
+
+<div id="isifbkCreateSimulationView" style="display: none;">
+	<div class="row" style="margin: 10px 0px 5px 0px">
+		<label class="col-sm-5">Create Simulation</label>
+		<hr>
+	</div>
+
+	<div class="row">
+		<label class="col-sm-5">Preset</label>
+		<div class="col-sm-7">
+			<select id="isifbkTemplateSelect" size="1">
+				{{#templates}}
+				<option>{{name}}</option>
+				{{/templates}}
+			</select>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-offset-5 col-sm-7">
+			<button id="isifbkCreate" type="button" class="btn btn-primary pull-right">
+				<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+			</button>
+		</div>
+	</div>
+</div>
+
+<div id="isifbkVisualizationSettingsView" style="display: none;">
+	<div class="row" style="margin: 10px 0px 5px 0px">
+		<label class="col-sm-5">Visualization Settings</label>
+		<hr>
+	</div>
+
+	<div class="row">
+		<label class="col-sm-5">Cases</label>
+		<div class="col-sm-7">
+			<select id="isifbkCasesSelect" size="1">
+				{{#cases}}
+				<option>{{.}}</option>
+				{{/cases}}
+			</select>
+		</div>
+	</div>
+
+	<div class="row">
+		<label class="col-sm-5">Age Bracket</label>
+		<div class="col-sm-7">
+			<select id="isifbkAgeBracketSelect" size="1">
+				{{#ageBrackets}}
+				<option>{{.}}</option>
+				{{/ageBrackets}}
+			</select>
+		</div>
+	</div>
+
+	<div class="row">
+		<label class="col-sm-5">Compartment</label>
+		<div class="col-sm-7">
+			<select id="isifbkCompartmentSelect" size="1">
+				{{#compartments}}
+				<option>{{.}}</option>
+				{{/compartments}}
+			</select>
+		</div>
+	</div>
+
+	<div class="row">
+		<label class="col-sm-5">Value</label>
+		<div class="col-sm-7">
+			<select id="isifbkValueSelect" size="1">
+				{{#value}}
+				<option>{{.}}</option>
+				{{/value}}
+			</select>
+		</div>
+	</div>
+</div>
+
+<div id="isifbkProgressView" class="row" style="display: none;">
+	<div class="row" style="margin: 10px 0px 5px 0px">
+		<div class="col-sm-offset-5 col-sm-7">
+			<hr>
+		</div>
+	</div>
+
+	<div class="row">
+		<label class="col-sm-5">Progress</label>
+		<div class="col-sm-7">
+			<div class="progress" style="margin: 0px">
+				<div id="isifbkProgressBar" class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+				    aria-valuemax="100">
+					<span class="sr-only">100% Complete</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div id="isifbkInformationDialog" class="modal fade" tabindex="-1" role="dialog">
+	<div class="modal-dialog" role="document" style="left: 50%; margin-left: -300px; top: 50%; margin-top: -138px">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<h4 class="modal-title">Simulation Information</h4>
+			</div>
+			<div class="modal-body">
+				<textarea id="isifbkInformationDialogContent" rows="20" cols="40" style="border:none; width: 100%; height: 100%;">
+				</textarea>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+</div>

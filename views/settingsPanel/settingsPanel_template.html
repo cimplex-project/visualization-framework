@@ -1,0 +1,93 @@
+<form id="graphForm" method="" action="">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<div class="panel panel-default" id="datasPanel">
+			<div class="panel-heading">Data Source</div>
+			<div class="panel-body">
+				<div class="row">
+					<div class="center-block">
+						<fieldset id="data">
+						</fieldset>
+					</div>
+				</div>
+				<hr>
+				<div id="dataParameterPanel"></div>
+			</div>
+			<div class="panel-footer"></div>
+		</div>
+
+		<img src="./img/down-arrow.svg" class="settingsArrow">
+
+		<div class="panel panel-default" id="simulationsPanel">
+			<div class="panel-heading">Epidemic Simulations</div>
+			<div class="panel-body">
+				<div class="row">
+					<div class="center-block">
+						<fieldset id="simulations">
+						</fieldset>
+					</div>
+				</div>
+				<hr>
+				<div id="simulationParameterPanel"></div>
+			</div>
+			<div class="panel-footer"></div>
+		</div>
+
+		<img src="./img/down-arrow.svg" class="settingsArrow">
+
+		<div class="panel panel-default" id="visualizationPanel">
+			<div class="panel-heading">Visualization</div>
+			<div class="panel-body">
+				<div class="row">
+					<div class="center-block">
+						<fieldset id="visualizations">
+							<label style="text-align: center;">
+					    		<input type="radio" name="visualizations" value="visframework">
+					    		<div class="simulationItem">
+						    		<img src="./img/ustutt.png" height="64" width="64">
+						    		<img src="./img/dfki.png" width="64">
+						    		<h6 style="margin-bottom: 0px">VisFramework</h6>
+						    		<small>University of Stuttgart / DFKI</small>
+					    		</div>
+					    	</label>
+
+							<label style="text-align: center;">
+					    		<input type="radio" name="visualizations" value="gleamviz" disabled>
+					    		<div class="simulationItem">
+						    		<img src="./img/gleamviz.png" height="64" width="64">
+						    		<h6 style="margin-bottom: 0px">GLEAMViz client</h6>
+						    		<small>ISI</small>
+						    	</div>
+					    	</label>
+						</fieldset>
+					</div>
+				</div>
+				<hr>
+				<div id="visualizationParameterPanel">
+					<div id="visframeworkPanel" style="display: none;">
+						<div class="col-sm-12">
+							<div class="row">
+								<div class="col-sm-12">Available views</div>
+								<div id="visframeworkPanelViews" class="col-sm-12">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="panel-footer"></div>
+		</div>
+
+		<div class="row" style="margin-top: 20px;">
+			<div class="col-sm-12">
+				<div class="col-sm-2" style="padding: 0px">
+					<button id="serviceButton" type="submit" class="btn btn-primary" style="width: 100%; max-width: 500px">Apply</button>
+				</div>
+				<div class="col-sm-offset-8 col-sm-2" style="padding: 0px;">
+					<button id="cancelButton" type="button" class="btn btn-danger" style="width: 100%; max-width: 500px">Cancel</button>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+</form>

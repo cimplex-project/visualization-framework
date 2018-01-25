@@ -1,0 +1,218 @@
+<div class="row">
+    <div class="section">
+        <h4>
+            <a class="toggleButton" onclick="filterInfoView.toggle('network')">
+                <span title="Click to toggle the visibility of this section">
+                    Network
+                </span>
+            </a>
+        </h4>
+
+        {{#network}}
+            <p>
+                <svg class="filterInfoSVG filterInfoBar" width="{{svgWidth}}px" height="40px">
+                    <text x="1px" y="16px" class="label">
+                        {{{label}}}
+                    </text>
+
+                    <rect x="{{labelWidth}}px" y="1px" width="{{chartWidth}}px" height="20px" class="border" />
+                    <rect x="{{labelWidth}}px" y="1px" width="{{barWidth}}px" height="20px" class="bar" />
+
+                    <text x="{{barTextPos}}px" y="16px" text-anchor="middle">
+                        {{{barText}}}
+                    </text>
+
+                    <text x="{{minPos}}px" y="35px">
+                        {{min}}
+                    </text>
+                    <text x="{{maxPos}}px" y="35px" text-anchor="end">
+                        {{max}}
+                    </text>
+                </svg>
+            </p>
+        {{/network}}
+
+        {{#network2}}
+            <p>
+                <svg class="filterInfoSVG filterInfoDistribution" width="{{svgWidth}}px" height="{{svgHeightDistr}}px">
+                    <text x="1px" y="14px" class="label" width="{{labelWidth}}">
+                        {{{label1}}}
+                    </text>
+                    <text x="1px" y="28px" class="label" width="{{labelWidth}}">
+                        {{{label2}}}
+                    </text>
+
+                    {{#bars}}
+                        <rect x="{{x}}px" y="{{y}}px" width="{{width}}px" height="{{height}}px" class="barChartBar">
+                            <title>
+                                {{title}}
+                            </title>>
+                        </rect>
+                    {{/bars}}
+
+                    <text x="{{minPos}}px" y="{{svgHeightDistr}}px">
+                        {{min}}
+                    </text>
+                    <text x="{{meanPos}}px" y="{{svgHeightDistr}}px" text-anchor="middle">
+                        {{mean}}
+                    </text>
+                    <text x="{{maxPos}}px" y="{{svgHeightDistr}}px" text-anchor="end">
+                        {{max}}
+                    </text>
+                </svg>
+            </p>
+        {{/network2}}
+    </div>
+
+
+    <div class="section">
+        <h4>
+            <a class="toggleButton" onclick="filterInfoView.toggle('time')">
+                <span title="Click to toggle the visibility of this section">
+                    Time
+                </span>
+            </a>
+        </h4>
+
+        {{#time}}
+            <p>
+                <svg class="filterInfoSVG filterInfoBar" width="{{svgWidth}}px" height="50px">
+                    <text x="1px" y="16px" class="label">
+                        filtered
+                    </text>
+                    <text x="1px" y="49px" class="label">
+                        total
+                    </text>
+
+                    <rect x="{{labelWidth}}px" y="1px" width="{{chartWidth}}px" height="20px" class="border" />
+                    <rect x="{{labelWidth}}px" y="1px" width="{{barWidth}}px" height="20px" class="bar" />
+
+                    <text x="{{barTextPos}}px" y="16px" text-anchor="middle">
+                        {{{barText}}}
+                    </text>
+
+                    <text x="{{minPos}}px" y="35px">
+                        {{min}}
+                    </text>
+                    <text x="{{maxPos}}px" y="35px" text-anchor="end">
+                        {{max}}
+                    </text>
+                    <text x="{{minPos}}px" y="49px">
+                        {{minTotal}}
+                    </text>
+                    <text x="{{maxPos}}px" y="49px" text-anchor="end">
+                        {{maxTotal}}
+                    </text>
+                </svg>
+            </p>
+        {{/time}}
+    </div>
+
+
+    {{#communityDetection?}}
+        <div class="section">
+            <h4>
+                <a class="toggleButton" onclick="filterInfoView.toggle('communities')">
+                    <span title="Click to toggle the visibility of this section">
+                        Communities
+                    </span>
+                </a>
+            </h4>
+
+            {{#communitiesShown?}}
+
+                {{#communityText}}
+                    <p>
+                        <svg class="filterInfoSVG filterInfoText" width="{{svgWidth}}px" height="16px">
+                            <text x="1px" y="13px" class="label" text-anchor="begin">
+                                {{{label}}}
+                            </text>
+                            <text x="{{svgWidth}}px" y="13px" text-anchor="end">
+                                {{{text}}}
+                            </text>
+                        </svg>
+                    </p>
+                {{/communityText}}
+
+                {{#communityDistr}}
+                    <p>
+                        <svg class="filterInfoSVG filterInfoDistribution" width="{{svgWidth}}px" height="{{svgHeightDistr}}px">
+                            <text x="1px" y="14px" class="label" width="{{labelWidth}}">
+                                {{{label1}}}
+                            </text>
+                            <text x="1px" y="28px" class="label" width="{{labelWidth}}">
+                                {{{label2}}}
+                            </text>
+
+                            {{#bars}}
+                                <rect x="{{x}}px" y="{{y}}px" width="{{width}}px" height="{{height}}px" class="barChartBar">
+                                    <title>
+                                        {{title}}
+                                    </title>>
+                                </rect>
+                            {{/bars}}
+
+                            <text x="{{minPos}}px" y="{{svgHeightDistr}}px">
+                                {{min}}
+                            </text>
+                            <text x="{{meanPos}}px" y="{{svgHeightDistr}}px" text-anchor="middle">
+                                {{mean}}
+                            </text>
+                            <text x="{{maxPos}}px" y="{{svgHeightDistr}}px" text-anchor="end">
+                                {{max}}
+                            </text>
+                        </svg>
+                    </p>
+                {{/communityDistr}}
+
+            {{/communitiesShown?}}
+        </div>
+    {{/communityDetection?}}
+
+
+    <div class="section">
+        <h4>
+            <a class="toggleButton" onclick="filterInfoView.toggle('dataServiceParameters')">
+                <span title="Click to toggle the visibility of this section">
+                    Data Service Parameters
+                </span>
+            </a>
+        </h4>
+
+        {{#dataServiceParameters}}
+            <p>
+                <svg class="filterInfoSVG filterInfoText" width="{{svgWidth}}px" height="16px">
+                    <text x="1px" y="13px" class="label" text-anchor="begin">
+                        {{{label}}}
+                    </text>
+                    <text x="{{svgWidth}}px" y="13px" text-anchor="end">
+                        {{{text}}}
+                    </text>
+                </svg>
+            </p>
+        {{/dataServiceParameters}}
+    </div>
+
+    <div class="section">
+        <h4>
+            <a class="toggleButton" onclick="filterInfoView.toggle('filterHistory')">
+                <span title="Click to toggle the visibility of this section">
+                    Filter History
+                </span>
+            </a>
+        </h4>
+
+        {{#filterHistory}}
+            <p>
+                <svg class="filterInfoSVG filterInfoText" width="{{svgWidth}}px" height="16px">
+                    <text x="1px" y="13px" class="label" text-anchor="begin">
+                        {{{label}}}
+                    </text>
+                    <text x="{{svgWidth}}px" y="13px" text-anchor="end">
+                        {{{text}}}
+                    </text>
+                </svg>
+            </p>
+        {{/filterHistory}}
+    </div>
+</div>

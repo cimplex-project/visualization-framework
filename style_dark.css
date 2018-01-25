@@ -1,0 +1,48 @@
+/**
+ * This file contains CSS style code for a dark theme. It only overwrites colors
+ * defined in style.css and should not affect any other properties.
+*/
+
+/********** COLOR VARIABLES **********/
+* {
+	--pageBgColor: #333;
+	--pageColor: #eee;
+    --scrollbarBgColor: #aaa;
+    --scrollbarThumbColor: #666;
+    --toolbarSeparatorColor: #222;
+    --viewBgColor: #222;
+    --viewColor: #eee;
+    --viewBorderColor: #333;
+    --viewHeaderColor: #ddd;
+    --viewButtonColor: #aaa;
+	--viewSettingsBgColor: rgba(16, 16, 16, 0.8);
+    --tooltipColor: #000;
+    --tooltipBgColor: rgba(255, 255, 255, 0.85);
+    --draggingRectColor: #fff;
+    --textShadow: -1px -1px 1px #000,
+                  -1px  1px 1px #000,
+                   1px -1px 1px #000,
+				  -1px -1px 1px #000;
+	--disabledColor: #333;
+	--disabledBorderColor: #333;
+	--disabledBgColor: #000;
+}
+
+/********** TIMELINE **********/
+.timeline {
+    --timelineAxisColor: #eee;
+}
+
+/********** MAP **********/
+.map {
+	--mapTextColor: #eee;
+	--mapButtonBgColor: #000;
+	--mapButtonBorderColor: #aaa;
+}
+
+/********** FILTER INFO **********/
+.filterInfo {
+    --svgBgColor: steelblue;
+    --svgBgHover: #fff;
+    --svgTextColor: #fff;
+}

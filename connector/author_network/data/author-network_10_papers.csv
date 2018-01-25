@@ -1,0 +1,583 @@
+source,target,title,conference,year1,year2
+21,17,Automatic Detection and Visualization of Qualitative Hemodynamic Characteristics in Cerebral Aneurysms,Vis,2012,2012
+21,20,Automatic Detection and Visualization of Qualitative Hemodynamic Characteristics in Cerebral Aneurysms,Vis,2012,2012
+17,20,Automatic Detection and Visualization of Qualitative Hemodynamic Characteristics in Cerebral Aneurysms,Vis,2012,2012
+1,97,Computing Morse-Smale Complexes with Accurate Geometry,Vis,2012,2012
+80,43,Interactive Retro-Deformation of Terrain for Reconstructing 3D Fault Displacements,Vis,2012,2012
+77,18,Interactive Volume Exploration of Petascale Microscopy Data Streams Using a Visualization-Driven Virtual Memory Approach,Vis,2012,2012
+96,52,Lagrangian Coherent Structures for Design Analysis of Revolving Doors,Vis,2012,2012
+76,80,Visual Steering and Verification of Mass Spectrometry Data Factorization in Air Quality Research,Vis,2012,2012
+76,43,Visual Steering and Verification of Mass Spectrometry Data Factorization in Air Quality Research,Vis,2012,2012
+80,43,Visual Steering and Verification of Mass Spectrometry Data Factorization in Air Quality Research,Vis,2012,2012
+67,43,Visualization of Flow Behavior in Earth Mantle Convection,Vis,2012,2012
+1,97,Adaptive Extraction and Quantification of Geophysical Vortices,Vis,2011,2011
+1,80,Adaptive Extraction and Quantification of Geophysical Vortices,Vis,2011,2011
+97,80,Adaptive Extraction and Quantification of Geophysical Vortices,Vis,2011,2011
+97,1,Feature-Based Statistical Analysis of Combustion Simulation Data,Vis,2011,2011
+13,21,Interactive Virtual Probing of 4D MRI Blood-Flow,Vis,2011,2011
+77,13,Interactive Volume Visualization of General Polyhedral Grids,Vis,2011,2011
+6,91,Topological Spines: A Structure-preserving Visual Representation of Scalar fields,Vis,2011,2011
+6,1,Topological Spines: A Structure-preserving Visual Representation of Scalar fields,Vis,2011,2011
+91,1,Topological Spines: A Structure-preserving Visual Representation of Scalar fields,Vis,2011,2011
+6,91,Towards Robust Topology of Sparsely Sampled Data,Vis,2011,2011
+95,26,Tuner: Principled Parameter finding for Image Segmentation Algorithms Using Visual Response Surface Exploration,Vis,2011,2011
+42,76,Visualization of Topological Structures in Area-Preserving Maps,Vis,2011,2011
+89,13,Volume Analysis Using Multimodal Surface Similarity,Vis,2011,2011
+13,21,Exploration of 4D MRI Blood Flow using Stylistic Visualization,Vis,2010,2010
+76,67,Fast; Memory-Efficient Cell Location in Unstructured Grids for Visualization,Vis,2010,2010
+88,18,Interactive Histology of Large-Scale Biomedical Image Stacks,Vis,2010,2010
+17,88,Interactive Separating Streak Surfaces,Vis,2010,2010
+96,99,Interactive Visual Analysis of Multiple Simulation Runs Using the Simulation Model View: Understanding and Tuning of an Electronic Unit Injector,Vis,2010,2010
+76,80,IRIS: Illustrative Rendering for Integral Surfaces,Vis,2010,2010
+76,43,IRIS: Illustrative Rendering for Integral Surfaces,Vis,2010,2010
+76,67,IRIS: Illustrative Rendering for Integral Surfaces,Vis,2010,2010
+80,43,IRIS: Illustrative Rendering for Integral Surfaces,Vis,2010,2010
+80,67,IRIS: Illustrative Rendering for Integral Surfaces,Vis,2010,2010
+43,67,IRIS: Illustrative Rendering for Integral Surfaces,Vis,2010,2010
+89,95,Result-Driven Exploration of Simulation Parameter Spaces for Visual Effects Design,Vis,2010,2010
+1,97,Visual Exploration of High Dimensional Scalar Functions,Vis,2010,2010
+1,84,Visual Exploration of High Dimensional Scalar Functions,Vis,2010,2010
+97,84,Visual Exploration of High Dimensional Scalar Functions,Vis,2010,2010
+6,25,Visualization by Proxy: A Novel Framework for Deferred Interaction with Volume Data,Vis,2010,2010
+64,30,A Novel Interface for Interactive Exploration of DTI fibers,Vis,2009,2009
+77,13,A Visual Approach to Efficient Analysis and Quantification of Ductile Iron and Reinforced Sprayed Concrete,Vis,2009,2009
+89,13,BrainGazer - Visual Queries for Neurobiology Research,Vis,2009,2009
+6,25,Curve-Centric Volume Reformation for Comparative Visualization,Vis,2009,2009
+6,99,Curve-Centric Volume Reformation for Comparative Visualization,Vis,2009,2009
+25,99,Curve-Centric Volume Reformation for Comparative Visualization,Vis,2009,2009
+30,74,Focus+Context Route Zooming and Information Overlay in 3D Urban Environments,Vis,2009,2009
+90,95,Hue-Preserving Color Blending,Vis,2009,2009
+75,34,Interactive Coordinated Multiple-View Visualization of Biomechanical Motion Data,Vis,2009,2009
+17,88,Interactive Streak Surface Visualization on the GPU,Vis,2009,2009
+96,99,Interactive Visual Analysis of Complex Scientific Data as Families of Data Surfaces,Vis,2009,2009
+74,30,Interactive Visual Optimization and Analysis for RfiD Benchmarking,Vis,2009,2009
+74,85,Interactive Visual Optimization and Analysis for RfiD Benchmarking,Vis,2009,2009
+30,85,Interactive Visual Optimization and Analysis for RfiD Benchmarking,Vis,2009,2009
+74,64,Perception-Based Transparency Optimization for Direct Volume Rendering,Vis,2009,2009
+74,30,Perception-Based Transparency Optimization for Direct Volume Rendering,Vis,2009,2009
+64,30,Perception-Based Transparency Optimization for Direct Volume Rendering,Vis,2009,2009
+77,18,Scalable and Interactive Segmentation and Visualization of Neural Processes in EM Datasets,Vis,2009,2009
+77,84,Scalable and Interactive Segmentation and Visualization of Neural Processes in EM Datasets,Vis,2009,2009
+18,84,Scalable and Interactive Segmentation and Visualization of Neural Processes in EM Datasets,Vis,2009,2009
+27,64,Structuring Feature Space: A Non-Parametric Method for Volumetric Transfer Function Generation,Vis,2009,2009
+27,45,Structuring Feature Space: A Non-Parametric Method for Volumetric Transfer Function Generation,Vis,2009,2009
+64,45,Structuring Feature Space: A Non-Parametric Method for Volumetric Transfer Function Generation,Vis,2009,2009
+6,25,The Occlusion Spectrum for Volume Classification and Visualization,Vis,2009,2009
+76,67,Time and Streak Surfaces for Flow Visualization in Large Time-Varying Data Sets,Vis,2009,2009
+3,78,Verifiable Visualization for Isosurface Extraction,Vis,2009,2009
+64,45,Volume Illustration of Muscle from Diffusion Tensor Images,Vis,2009,2009
+46,43,Volume Ray Casting with Peak finding and Differential Sampling,Vis,2009,2009
+1,80,A Practical Approach to Morse-Smale Complex Computation: Scalability and Generality,Vis,2008,2008
+1,97,A Practical Approach to Morse-Smale Complex Computation: Scalability and Generality,Vis,2008,2008
+80,97,A Practical Approach to Morse-Smale Complex Computation: Scalability and Generality,Vis,2008,2008
+76,42,Generation of Accurate Integral Surfaces in Time-Dependent Vector fields,Vis,2008,2008
+76,42,Generation of Accurate Integral Surfaces in Time-Dependent Vector fields,Vis,2008,2008
+76,67,Generation of Accurate Integral Surfaces in Time-Dependent Vector fields,Vis,2008,2008
+42,42,Generation of Accurate Integral Surfaces in Time-Dependent Vector fields,Vis,2008,2008
+42,67,Generation of Accurate Integral Surfaces in Time-Dependent Vector fields,Vis,2008,2008
+42,67,Generation of Accurate Integral Surfaces in Time-Dependent Vector fields,Vis,2008,2008
+96,99,Interactive Visual Steering - Rapid Visual Prototyping of a Common Rail Injection System,Vis,2008,2008
+42,28,Invariant Crease Lines for Topological and Structural Analysis of Tensor fields,Vis,2008,2008
+84,3,Particle-based Sampling and Meshing of Surfaces in Multimaterial Volumes,Vis,2008,2008
+84,18,Particle-based Sampling and Meshing of Surfaces in Multimaterial Volumes,Vis,2008,2008
+3,18,Particle-based Sampling and Meshing of Surfaces in Multimaterial Volumes,Vis,2008,2008
+30,74,Relation-Aware Volume Exploration Pipeline,Vis,2008,2008
+20,20,Sinus Endoscopy - Application of Advanced GPU Volume Rendering for Virtual Endoscopy,Vis,2008,2008
+6,25,Size-based Transfer Functions: A New Volume Exploration Technique,Vis,2008,2008
+17,62,Smoke Surfaces: An Interactive Flow Visualization Technique Inspired by Real-World Flow Experiments,Vis,2008,2008
+21,13,Visualization of Myocardial Perfusion Derived from Coronary Anatomy,Vis,2008,2008
+17,26,Cores of Swirling Particle Motion in Unsteady Flows,Vis,2007,2007
+21,13,CoViCAD: Comprehensive Visualization of Coronary Artery Disease,Vis,2007,2007
+76,42,Efficient Computation and Visualization of Coherent Structures in Fluid Flow Applications,Vis,2007,2007
+76,43,Efficient Computation and Visualization of Coherent Structures in Fluid Flow Applications,Vis,2007,2007
+42,43,Efficient Computation and Visualization of Coherent Structures in Fluid Flow Applications,Vis,2007,2007
+97,80,Efficient Computation of Morse-Smale Complexes for Three-dimensional Scalar Functions,Vis,2007,2007
+89,13,Enhancing Depth-Perception with Flexible Volumetric Halos,Vis,2007,2007
+42,29,Generalized Streak Lines: Analysis and Visualization of Boundary Induced Vortices,Vis,2007,2007
+6,37,Illustrative Deformation for Data Exploration,Vis,2007,2007
+6,98,Illustrative Deformation for Data Exploration,Vis,2007,2007
+37,98,Illustrative Deformation for Data Exploration,Vis,2007,2007
+99,20,Interactive Visual Analysis of Perfusion Data,Vis,2007,2007
+22,10,Lattice-Based Volumetric Global Illumination,Vis,2007,2007
+76,43,Listener-based Analysis of Surface Importance for Acoustic Metrics,Vis,2007,2007
+76,80,Moment Invariants for the Analysis of 2D Flow fields,Vis,2007,2007
+76,43,Moment Invariants for the Analysis of 2D Flow fields,Vis,2007,2007
+80,43,Moment Invariants for the Analysis of 2D Flow fields,Vis,2007,2007
+77,99,Scalable Hybrid Unstructured and Structured Grid Raycasting,Vis,2007,2007
+89,13,Semantic Layers for Illustrative Volume Rendering,Vis,2007,2007
+1,97,Topological Landscapes: A Terrain Metaphor for Scientific Data,Vis,2007,2007
+17,62,Topological Visualization of Brain Diffusion MRI Data,Vis,2007,2007
+97,80,Topologically Clean Distance fields,Vis,2007,2007
+3,84,Topology; Accuracy; and Quality of Isosurface Meshes Using Dynamic Particles,Vis,2007,2007
+95,90,A Spectral Analysis of Function Composition and its Implications for Sampling in Direct Volume Visualization,Vis,2006,2006
+43,63,Comparative Visualization for Wave-based and Geometric Acoustics,Vis,2006,2006
+89,13,Exploded Views for Volume Data,Vis,2006,2006
+6,37,Feature Aligned Volume Manipulation for Illustration and Visualization,Vis,2006,2006
+6,98,Feature Aligned Volume Manipulation for Illustration and Visualization,Vis,2006,2006
+37,98,Feature Aligned Volume Manipulation for Illustration and Visualization,Vis,2006,2006
+17,62,Multifield-Graphs: An Approach to Visualizing Correlations in Multifield Scalar Data,Vis,2006,2006
+97,78,Progressive Volume Rendering of Large Unstructured Grids,Vis,2006,2006
+46,20,Real-Time Illustration of Vascular Structures,Vis,2006,2006
+1,97,Understanding the Structure of the Turbulent Mixing Layer in Hydrodynamic Instabilities,Vis,2006,2006
+98,90,Visual Signatures in Video Visualization,Vis,2006,2006
+98,38,Visual Signatures in Video Visualization,Vis,2006,2006
+90,38,Visual Signatures in Video Visualization,Vis,2006,2006
+6,37,Dataset traversal with motion-controlled transfer functions,Vis,2005,2005
+21,41,Evaluation of fiber clustering methods for diffusion tensor imaging,Vis,2005,2005
+17,26,Extracting higher order critical points and topological simplification of 3D vector fields,Vis,2005,2005
+17,62,Extracting higher order critical points and topological simplification of 3D vector fields,Vis,2005,2005
+26,62,Extracting higher order critical points and topological simplification of 3D vector fields,Vis,2005,2005
+17,26,Extraction of parallel vector surfaces in 3D time-dependent fields and application to vortex core line tracking,Vis,2005,2005
+17,62,Extraction of parallel vector surfaces in 3D time-dependent fields and application to vortex core line tracking,Vis,2005,2005
+26,62,Extraction of parallel vector surfaces in 3D time-dependent fields and application to vortex core line tracking,Vis,2005,2005
+83,78,Hardware-accelerated simulated radiography,Vis,2005,2005
+90,38,Particle and texture based spatiotemporal visualization of time-dependent vector fields,Vis,2005,2005
+21,13,Profile Flags: a novel metaphor for probing of T<sub>2</sub> maps,Vis,2005,2005
+90,38,Texture-based visualization of uncertainty in flow fields,Vis,2005,2005
+10,22,The magic volume lens: an interactive focus+context technique for volume rendering,Vis,2005,2005
+55,78,VisTrails: enabling interactive multiple-view visualizations,Vis,2005,2005
+76,99,Visual analysis and exploration of fluid flow in a cooling jacket,Vis,2005,2005
+76,43,Visual analysis and exploration of fluid flow in a cooling jacket,Vis,2005,2005
+99,43,Visual analysis and exploration of fluid flow in a cooling jacket,Vis,2005,2005
+90,38,Visualization in the Einstein Year 2005: a case study on explanatory and illustrative visualization of relativity and astrophysics,Vis,2005,2005
+52,49,Volume rendering of smoke propagation CFD data,Vis,2005,2005
+89,13,VolumeShop: an interactive system for direct volume illustration,Vis,2005,2005
+14,36,2D Maps for Visual Analysis and Retrieval in Large Multi-Feature 3D Model Databases,Vis,2004,2004
+28,46,Constrained inverse volume rendering for planetary nebulae,Vis,2004,2004
+22,10,Dispersion simulation and visualization for urban security,Vis,2004,2004
+64,18,Hardware-accelerated adaptive EWA volume splatting,Vis,2004,2004
+21,13,Interactive thickness visualization of articular cartilage,Vis,2004,2004
+90,99,Investigating swirl and tumble flow with a comparison of visualization techniques,Vis,2004,2004
+45,46,Panel 3: The Future Visualization Platform,Vis,2004,2004
+45,18,Panel 3: The Future Visualization Platform,Vis,2004,2004
+46,18,Panel 3: The Future Visualization Platform,Vis,2004,2004
+16,93,Panel 4: What Should We Teach in a Scientific Visualization Class?,Vis,2004,2004
+16,84,Panel 4: What Should We Teach in a Scientific Visualization Class?,Vis,2004,2004
+93,84,Panel 4: What Should We Teach in a Scientific Visualization Class?,Vis,2004,2004
+43,80,Physically based methods for tensor field visualization,Vis,2004,2004
+43,67,Physically based methods for tensor field visualization,Vis,2004,2004
+80,67,Physically based methods for tensor field visualization,Vis,2004,2004
+17,26,Stream line and path line oriented topology for 2D time-dependent vector fields,Vis,2004,2004
+17,62,Stream line and path line oriented topology for 2D time-dependent vector fields,Vis,2004,2004
+26,62,Stream line and path line oriented topology for 2D time-dependent vector fields,Vis,2004,2004
+76,42,Tracking of vector field singularities in unstructured 3D time-dependent datasets,Vis,2004,2004
+76,29,Tracking of vector field singularities in unstructured 3D time-dependent datasets,Vis,2004,2004
+42,29,Tracking of vector field singularities in unstructured 3D time-dependent datasets,Vis,2004,2004
+42,76,Visualization of intricate flow structures for vortex breakdown analysis,Vis,2004,2004
+42,28,Visualization of intricate flow structures for vortex breakdown analysis,Vis,2004,2004
+42,29,Visualization of intricate flow structures for vortex breakdown analysis,Vis,2004,2004
+42,46,Visualization of intricate flow structures for vortex breakdown analysis,Vis,2004,2004
+76,28,Visualization of intricate flow structures for vortex breakdown analysis,Vis,2004,2004
+76,29,Visualization of intricate flow structures for vortex breakdown analysis,Vis,2004,2004
+76,46,Visualization of intricate flow structures for vortex breakdown analysis,Vis,2004,2004
+28,29,Visualization of intricate flow structures for vortex breakdown analysis,Vis,2004,2004
+28,46,Visualization of intricate flow structures for vortex breakdown analysis,Vis,2004,2004
+29,46,Visualization of intricate flow structures for vortex breakdown analysis,Vis,2004,2004
+92,41,3D IBFV: hardware-accelerated 3D flow visualization,Vis,2003,2003
+30,22,A framework for sample-based rendering with O-buffers,Vis,2003,2003
+1,80,A multi-resolution data structure for two-dimensional Morse-Smale functions,Vis,2003,2003
+1,97,A multi-resolution data structure for two-dimensional Morse-Smale functions,Vis,2003,2003
+80,97,A multi-resolution data structure for two-dimensional Morse-Smale functions,Vis,2003,2003
+90,38,A texture-based framework for spacetime-coherent visualization of time-dependent vector fields,Vis,2003,2003
+86,13,Advanced curved planar reformation: flattening of vascular structures,Vis,2003,2003
+66,73,Conveying shape and features with image-based relighting,Vis,2003,2003
+28,84,Curvature-based transfer functions for direct volume rendering: methods and applications,Vis,2003,2003
+28,95,Curvature-based transfer functions for direct volume rendering: methods and applications,Vis,2003,2003
+84,95,Curvature-based transfer functions for direct volume rendering: methods and applications,Vis,2003,2003
+10,22,Empty space skipping and occlusion clipping for texture-based volume rendering,Vis,2003,2003
+43,80,Hierarchical clustering for unstructured volumetric scalar fields,Vis,2003,2003
+43,67,Hierarchical clustering for unstructured volumetric scalar fields,Vis,2003,2003
+80,67,Hierarchical clustering for unstructured volumetric scalar fields,Vis,2003,2003
+77,99,High-quality two-level volume rendering of segmented data sets on consumer graphics hardware,Vis,2003,2003
+96,99,Interactive 3D visualization of rigid body systems,Vis,2003,2003
+46,84,Interactive deformation and visualization of level set surfaces using graphics hardware,Vis,2003,2003
+83,80,Interactive protein manipulation,Vis,2003,2003
+17,26,Saddle connectors - an approach to visualizing the topological skeleton of complex 3D vector fields,Vis,2003,2003
+17,62,Saddle connectors - an approach to visualizing the topological skeleton of complex 3D vector fields,Vis,2003,2003
+26,62,Saddle connectors - an approach to visualizing the topological skeleton of complex 3D vector fields,Vis,2003,2003
+52,49,Signed distance transform using graphics hardware,Vis,2003,2003
+45,46,Visually accurate multi-field weather visualization,Vis,2003,2003
+86,13,Christmas tree case study: computed tomography as a tool for mastering complex real world objects with applications in computer graphics,Vis,2002,2002
+86,13,CPR - curved planar reformation,Vis,2002,2002
+29,43,Exploring scalar fields using critical isovalues,Vis,2002,2002
+29,80,Exploring scalar fields using critical isovalues,Vis,2002,2002
+43,80,Exploring scalar fields using critical isovalues,Vis,2002,2002
+46,45,Interactive translucent volume rendering and procedural modeling,Vis,2002,2002
+91,97,Interactive view-dependent rendering of large isosurfaces,Vis,2002,2002
+91,67,Interactive view-dependent rendering of large isosurfaces,Vis,2002,2002
+97,67,Interactive view-dependent rendering of large isosurfaces,Vis,2002,2002
+45,54,Non-photorealistic volume rendering using stippling techniques,Vis,2002,2002
+45,46,Non-photorealistic volume rendering using stippling techniques,Vis,2002,2002
+54,46,Non-photorealistic volume rendering using stippling techniques,Vis,2002,2002
+10,22,Simulating fire with texture splats,Vis,2002,2002
+90,38,Volume clipping via per-fragment operations in texture-based volume visualization,Vis,2002,2002
+18,49,EWA volume splatting,Vis,2001,2001
+41,92,Enridged Contour Maps,Vis,2001,2001
+91,78,A memory insensitive technique for large model simplification,Vis,2001,2001
+16,3,Quantitative comparative evaluation of 2D vector field visualization methods,Vis,2001,2001
+29,43,A tetrahedra-based stream surface algorithm,Vis,2001,2001
+29,80,A tetrahedra-based stream surface algorithm,Vis,2001,2001
+29,67,A tetrahedra-based stream surface algorithm,Vis,2001,2001
+43,80,A tetrahedra-based stream surface algorithm,Vis,2001,2001
+43,67,A tetrahedra-based stream surface algorithm,Vis,2001,2001
+80,67,A tetrahedra-based stream surface algorithm,Vis,2001,2001
+42,29,Continuous topology simplification of planar vector fields,Vis,2001,2001
+42,43,Continuous topology simplification of planar vector fields,Vis,2001,2001
+29,43,Continuous topology simplification of planar vector fields,Vis,2001,2001
+28,46,Interactive volume rendering using multi-dimensional transfer functions and direct manipulation widgets,Vis,2001,2001
+46,80,Wavelet representation of contour sets,Vis,2001,2001
+46,67,Wavelet representation of contour sets,Vis,2001,2001
+80,67,Wavelet representation of contour sets,Vis,2001,2001
+91,97,Visualization of large terrains made easy,Vis,2001,2001
+33,93,Approximate shading for the re-illumination of synthetic images,Vis,2001,2001
+86,13,Nonlinear virtual colon unfolding,Vis,2001,2001
+86,13,Computed tomography angiography: a case study of peripheral vessel investigation,Vis,2001,2001
+88,38,A level-set method for flow visualization,Vis,2000,2000
+33,93,Enabling level-of-detail matching for exterior scene synthesis,Vis,2000,2000
+45,54,Volume illustration: non-photorealistic rendering of volume models,Vis,2000,2000
+99,13,Two-level volume rendering - fusing MIP and DVR,Vis,2000,2000
+10,94,FastSplats: optimized splatting on rectilinear grids,Vis,2000,2000
+92,41,A continuous clustering method for vector fields,Vis,2000,2000
+42,29,A topology simplification method for 2D vector fields,Vis,2000,2000
+42,43,A topology simplification method for 2D vector fields,Vis,2000,2000
+29,43,A topology simplification method for 2D vector fields,Vis,2000,2000
+67,80,Constructing material interfaces from data sets with volume-fraction information,Vis,2000,2000
+80,67,Bicubic subdivision-surface wavelets for large-scale isosurface representation and visualization,Vis,2000,2000
+86,13,Mastering interactive surface rendering for Java-based diagnostic applications,Vis,2000,2000
+16,3,Immersive virtual reality for visualizing flow through an artery,Vis,2000,2000
+86,21,Mastering interactive virtual bronchioscopy on a low-end PC,Vis,2000,2000
+86,13,Mastering interactive virtual bronchioscopy on a low-end PC,Vis,2000,2000
+21,13,Mastering interactive virtual bronchioscopy on a low-end PC,Vis,2000,2000
+82,40,Vector fields simplification-a case study of visualizing climate modeling and simulation data sets,Vis,2000,2000
+80,67,Construction of vector field hierarchies,Vis,1999,1999
+92,41,Simplified representation of vector fields,Vis,1999,1999
+24,61,Hierarchical parallel coordinates for exploration of large datasets,Vis,1999,1999
+88,38,Isosurface extraction techniques for Web-based volume visualization,Vis,1999,1999
+29,43,Visualizing Planar Vector Fields with Normal Component Using Line Integral Convolution,Vis,1999,1999
+29,42,C1-interpolation for vector field topology visualization,Vis,1999,1999
+29,43,C1-interpolation for vector field topology visualization,Vis,1999,1999
+42,43,C1-interpolation for vector field topology visualization,Vis,1999,1999
+3,16,Visualizing Multivalued Data from 2D Incompressible Flows Using Concepts from Painting,Vis,1999,1999
+80,67,Multiresolution Techniques for Interactive Texture-based Volume Visualization,Vis,1999,1999
+10,95,Splatting without the blur,Vis,1999,1999
+57,25,A fast volume rendering algorithm for time-varying fields using a time-space partitioning (TSP) tree,Vis,1999,1999
+10,94,Eliminating popping artifacts in sheet buffer-based splatting,Vis,1998,1998
+102,50,Selective visualization of vortices in hydrodynamic flows,Vis,1998,1998
+80,67,Simplification of tetrahedral meshes,Vis,1998,1998
+95,68,Size preserving pattern mapping,Vis,1998,1998
+33,10,A comparison of normal estimation schemes,Vis,1997,1997
+33,68,A comparison of normal estimation schemes,Vis,1997,1997
+10,68,A comparison of normal estimation schemes,Vis,1997,1997
+10,95,An anti-aliasing technique for splatting,Vis,1997,1997
+10,94,An anti-aliasing technique for splatting,Vis,1997,1997
+10,68,An anti-aliasing technique for splatting,Vis,1997,1997
+95,94,An anti-aliasing technique for splatting,Vis,1997,1997
+95,68,An anti-aliasing technique for splatting,Vis,1997,1997
+94,68,An anti-aliasing technique for splatting,Vis,1997,1997
+86,13,Fast oriented line integral convolution for vector field visualization via the Internet,Vis,1997,1997
+18,22,Integrated volume compression and visualization,Vis,1997,1997
+80,67,Smooth hierarchical surface triangulations,Vis,1997,1997
+88,38,The VSBUFFER: visibility ordering of unstructured volume primitives by polygon drawing,Vis,1997,1997
+29,43,Visualization of higher order singularities in vector fields,Vis,1997,1997
+86,13,Visualizing the behaviour of higher dimensional dynamical systems,Vis,1997,1997
+33,93,Wavelet-based multiresolutional representation of computational field simulation datasets,Vis,1997,1997
+50,80,Data reduction and interpolation for visualizing 3D soil-quality data,Vis,1996,1996
+50,93,Data reduction and interpolation for visualizing 3D soil-quality data,Vis,1996,1996
+80,93,Data reduction and interpolation for visualizing 3D soil-quality data,Vis,1996,1996
+22,18,Generation of Transfer Functions with Stochastic Search Technique,Vis,1996,1996
+57,46,Isosurfacing in span space with utmost efficiency (ISSUE),Vis,1996,1996
+55,78,Three Dimensional Visualization of Proteins in Cellular Interactions,Vis,1996,1996
+78,22,Automatic generation of triangular irregular networks using greedy cuts,Vis,1995,1995
+60,103,Defining; computing; and visualizing molecular interfaces,Vis,1995,1995
+102,37,Iconic techniques for feature visualization,Vis,1995,1995
+22,60,Turbulent flow visualization in computational and experimental hydraulics,Vis,1995,1995
+91,75,Virtual GIS: a real-time 3D geographic information system,Vis,1995,1995
+22,60,Voxel based object simplification,Vis,1995,1995
+22,18,VolVis: a diversified volume visualization system,Vis,1994,1994
+22,78,VolVis: a diversified volume visualization system,Vis,1994,1994
+18,78,VolVis: a diversified volume visualization system,Vis,1994,1994
+78,22,Parallel performance measures for volume ray casting,Vis,1994,1994
+45,68,Volume rendering methods for computational fluid dynamics visualization,Vis,1994,1994
+83,94,Visualizing 3D velocity fields near contour surfaces,Vis,1994,1994
+83,94,Flow volumes for interactive vector field visualization,Vis,1993,1993
+41,71,HyperSlice - Visualization of Scalar Functions of Many Variables,Vis,1993,1993
+94,83,Texture splats for 3D scalar and vector field visualization,Vis,1993,1993
+47,9,Grand challenge problems in visualization software,Vis,1992,1992
+75,47,Object-oriented; dataflow visualization system-a paradigm shift?,Vis,1992,1992
+54,47,Visualization requirements in the atmospheric and environmental sciences (five case study reports),Vis,1992,1992
+83,94,Visualizing wind velocities by advecting cloud textures,Vis,1992,1992
+68,22,Realistic volume imaging,Vis,1991,1991
+63,80,The asymptotic decider: resolving the ambiguity in marching cubes,Vis,1991,1991
+63,80,Techniques for the interactive visualization of volumetric data,Vis,1990,1990
+22,68,Volume visualization in cell biology,Vis,1990,1990
+38,27,Integrating Predictive Analytics and Social Media,VAST,2014,2014
+30,64,BoundarySeer: Visual Analysis of 2D Boundary Changes,VAST,2014,2014
+30,13,BoundarySeer: Visual Analysis of 2D Boundary Changes,VAST,2014,2014
+64,13,BoundarySeer: Visual Analysis of 2D Boundary Changes,VAST,2014,2014
+64,25,Visual Abstraction and Exploration of Multi-class Scatterplots,VAST,2014,2014
+74,12,LoyalTracker: Visualizing Loyalty Dynamics in Search Engines,VAST,2014,2014
+74,30,LoyalTracker: Visualizing Loyalty Dynamics in Search Engines,VAST,2014,2014
+12,30,LoyalTracker: Visualizing Loyalty Dynamics in Search Engines,VAST,2014,2014
+64,87,VAET: A Visual Analytics Approach for E-Transactions Time-Series,VAST,2014,2014
+74,12,EvoRiver: Visual Analysis of Topic Coopetition on Social Media,VAST,2014,2014
+74,12,OpinionFlow: Visual Analysis of Opinion Diffusion on Social Media,VAST,2014,2014
+96,99,Visual Analytics for Complex Engineering Systems: Hybrid Visual Steering of Simulation Ensembles,VAST,2014,2014
+85,30,Visual Exploration of Sparse Traffic Trajectory Data,VAST,2014,2014
+53,75,VASA: Interactive Computational Steering of Large Asynchronous Simulation Pipelines for Societal Infrastructure,VAST,2014,2014
+53,45,VASA: Interactive Computational Steering of Large Asynchronous Simulation Pipelines for Societal Infrastructure,VAST,2014,2014
+75,45,VASA: Interactive Computational Steering of Large Asynchronous Simulation Pipelines for Societal Infrastructure,VAST,2014,2014
+27,45,Proactive Spatiotemporal Resource Allocation and Predictive Visual Analytics for Community Policing and Law Enforcement,VAST,2014,2014
+13,96,The Spinel Explorer - Interactive Visual Analysis of Spinel Group Minerals,VAST,2014,2014
+65,78,Visual Reconciliation of Alternative Similarity Spaces in Climate Modeling,VAST,2014,2014
+19,79,An Extensible Framework for Provenance in Human Terrain Visual Analytics,VAST,2013,2013
+19,51,An Extensible Framework for Provenance in Human Terrain Visual Analytics,VAST,2013,2013
+79,51,An Extensible Framework for Provenance in Human Terrain Visual Analytics,VAST,2013,2013
+32,75,HierarchicalTopics: Visually Exploring Large Text Collections Using Topic Hierarchies,VAST,2013,2013
+11,15,Space Transformation for Understanding Group Movement,VAST,2013,2013
+100,48,Temporal Event Sequence Simplification,VAST,2013,2013
+13,89,VAICo: Visual Analysis for Image Comparison,VAST,2013,2013
+74,12,Visual Analysis of Topic Competition on Social Media,VAST,2013,2013
+74,30,Visual Analysis of Topic Competition on Social Media,VAST,2013,2013
+12,30,Visual Analysis of Topic Competition on Social Media,VAST,2013,2013
+15,11,Visual Analytics Methodology for Eye Movement Studies,VAST,2012,2012
+15,90,Visual Analytics Methodology for Eye Movement Studies,VAST,2012,2012
+11,90,Visual Analytics Methodology for Eye Movement Studies,VAST,2012,2012
+32,75,LeadLine: Interactive visual analysis of text data through event identification and exploration,VAST,2012,2012
+65,36,Subspace search and visualization to make sense of alternative clusterings in high-dimensional data,VAST,2012,2012
+65,14,Subspace search and visualization to make sense of alternative clusterings in high-dimensional data,VAST,2012,2012
+36,14,Subspace search and visualization to make sense of alternative clusterings in high-dimensional data,VAST,2012,2012
+27,53,A correlative analysis process in a visual analytics environment,VAST,2012,2012
+27,45,A correlative analysis process in a visual analytics environment,VAST,2012,2012
+53,45,A correlative analysis process in a visual analytics environment,VAST,2012,2012
+36,14,Matrix-based visual correlation analysis on large timeseries data,VAST,2012,2012
+11,15,Visual analytics methods for categoric spatio-temporal data,VAST,2012,2012
+36,14,Visual analytics for the big data era---A comparative review of state-of-the-art commercial systems,VAST,2012,2012
+89,13,Smart super views---A knowledge-assisted interface for medical visualization,VAST,2012,2012
+27,45,Spatiotemporal social media analytics for abnormal event detection and examination using seasonal-trend decomposition,VAST,2012,2012
+27,38,Spatiotemporal social media analytics for abnormal event detection and examination using seasonal-trend decomposition,VAST,2012,2012
+45,38,Spatiotemporal social media analytics for abnormal event detection and examination using seasonal-trend decomposition,VAST,2012,2012
+75,34,A state transition approach to understanding users&#39; interactions,VAST,2011,2011
+32,75,A two-stage framework for designing visual analytics system in organizational environments,VAST,2011,2011
+27,45,A visual analytics process for maritime resource allocation and risk assessment,VAST,2011,2011
+32,75,Analysts aren't machines: Inferring frustration through visualization interaction,VAST,2011,2011
+15,11,From movement tracks through events to places: Extracting and characterizing significant places from mobility data,VAST,2011,2011
+32,75,Guiding security analysis through visualization,VAST,2011,2011
+75,34,How locus of control influences compatibility with visualization style,VAST,2011,2011
+7,39,Jigsaw to save vastopolis,VAST,2011,2011
+11,15,KD-photomap: Exploring photographs in space and time,VAST,2011,2011
+7,39,Network-based visual analysis of tabular data,VAST,2011,2011
+44,51,Obvious: A meta-toolkit to encapsulate information visualization toolkits - One toolkit to bind them all,VAST,2011,2011
+32,34,ParallelTopics: A probabilistic approach to exploring document collections,VAST,2011,2011
+32,75,ParallelTopics: A probabilistic approach to exploring document collections,VAST,2011,2011
+34,75,ParallelTopics: A probabilistic approach to exploring document collections,VAST,2011,2011
+24,61,Pointwise local pattern exploration for sensitivity analysis,VAST,2011,2011
+100,48,TreeVersity: Comparing tree structures by topology and node's attributes differences,VAST,2011,2011
+79,51,Visual analytical approaches to evaluating uncertainty and bias in crowd sourced crisis information,VAST,2011,2011
+27,45,Visual analytics decision support environment for epidemic modeling and response evaluation,VAST,2011,2011
+65,36,Visual analytics of terrorist activities related to epidemics,VAST,2011,2011
+65,14,Visual analytics of terrorist activities related to epidemics,VAST,2011,2011
+36,14,Visual analytics of terrorist activities related to epidemics,VAST,2011,2011
+4,70,DimStiller: Workflows for dimensional analysis and reduction,VAST,2010,2010
+6,25,Flow-based scatterplots for sensitivity analysis,VAST,2010,2010
+15,11,Discovering bits of place histories from people's activity traces,VAST,2010,2010
+29,38,Two-stage framework for a topology-based projection and visualization of classified document collections,VAST,2010,2010
+7,5,NetClinic: Interactive visualization to enhance automated fault diagnosis in enterprise networks,VAST,2010,2010
+32,34,Helping users recall their reasoning process,VAST,2010,2010
+32,75,Comparing different levels of interaction constraints for deriving visual problem isomorphs,VAST,2010,2010
+32,34,Comparing different levels of interaction constraints for deriving visual problem isomorphs,VAST,2010,2010
+75,34,Comparing different levels of interaction constraints for deriving visual problem isomorphs,VAST,2010,2010
+15,11,Poster: Dynamic time transformation for interpreting clusters of trajectories with space-time cube,VAST,2010,2010
+75,34,A continuous analysis process between desktop and collaborative visual analytics environments,VAST,2010,2010
+15,11,Interactive visual clustering of large collections of trajectories,VAST,2009,2009
+6,25,Proximity-based visualization of movement trace data,VAST,2009,2009
+6,25,A framework for uncertainty-aware visual analytics,VAST,2009,2009
+17,14,Combining automated analysis and visualization techniques for effective exploration of high-dimensional data,VAST,2009,2009
+24,61,Model space visualization for multivariate linear trend discovery,VAST,2009,2009
+58,40,VAST contest dataset use in education,VAST,2009,2009
+15,11,Analysis of community-contributed space- and time-referenced data (example of flickr and panoramio photos),VAST,2009,2009
+15,14,Analysis of community-contributed space- and time-referenced data (example of flickr and panoramio photos),VAST,2009,2009
+11,14,Analysis of community-contributed space- and time-referenced data (example of flickr and panoramio photos),VAST,2009,2009
+75,34,Comparing two interface tools in performing visual analytics tasks,VAST,2009,2009
+9,100,VAST 2009 challenge: An insider threat,VAST,2009,2009
+51,19,Visualization of uncertainty and analysis of geographical data,VAST,2009,2009
+51,79,Visualization of uncertainty and analysis of geographical data,VAST,2009,2009
+19,79,Visualization of uncertainty and analysis of geographical data,VAST,2009,2009
+27,45,Understanding syndromic hotspots - a visual analytics approach,VAST,2008,2008
+15,11,Spatio-temporal aggregation for visual analysis of movements,VAST,2008,2008
+32,34,Evaluating the relationship between user interaction and financial visual analysis,VAST,2008,2008
+32,75,Evaluating the relationship between user interaction and financial visual analysis,VAST,2008,2008
+34,75,Evaluating the relationship between user interaction and financial visual analysis,VAST,2008,2008
+27,45,Applied visual analytics for economic decision-making,VAST,2008,2008
+34,75,Interactive poster: Visual data mining of unevenly-spaced event sequences,VAST,2008,2008
+6,25,Cell phone mini challenge award: Intuitive social network graphs visual analytics of cell phone data using mobivis and ontovis,VAST,2008,2008
+11,15,Evacuation trace Mini Challenge award: Tool integration analysis of movements with Geospatial Visual Analytics Toolkit,VAST,2008,2008
+35,69,Grand challenge award: Data integration visualization and collaboration in the VAST 2008 Challenge,VAST,2008,2008
+9,100,VAST 2008 Challenge: Introducing mini-challenges,VAST,2008,2008
+27,45,LAHVA: Linked Animal-Human Health Visual Analytics,VAST,2007,2007
+15,11,Visual Analytics Approach to User-Controlled Evacuation Scheduling,VAST,2007,2007
+61,24,Analysis Guided Visual Exploration of Multivariate Data,VAST,2007,2007
+87,75,Analyzing Large-Scale News Video Databases to Support Knowledge Visualization and Intuitive Retrieval,VAST,2007,2007
+87,75,NewsLab: Exploratory Broadcast News Video Analysis,VAST,2007,2007
+39,7,Jigsaw: Supporting Investigative Analysis through Interactive Visualization,VAST,2007,2007
+34,75,WireVis: Visualization of Categorical; Time-Varying Data From Financial Transactions,VAST,2007,2007
+34,87,WireVis: Visualization of Categorical; Time-Varying Data From Financial Transactions,VAST,2007,2007
+75,87,WireVis: Visualization of Categorical; Time-Varying Data From Financial Transactions,VAST,2007,2007
+23,66,Design Considerations for Collaborative Visual Analytics,VAST,2007,2007
+53,39,DataMeadow: A Visual Canvas for Analysis of Large-Scale Multivariate Data,VAST,2007,2007
+7,39,Visual Analytics with Jigsaw,VAST,2007,2007
+40,14,Outlook for Visual Analytics Research Funding,VAST,2007,2007
+9,100,VAST 2007 Contest - Blue Iguanodon,VAST,2007,2007
+7,39,Jigsaw meets Blue Iguanodon - The VAST 2007 Contest,VAST,2007,2007
+35,69,Visual Analysis of Historic Hotel Visitation Patterns,VAST,2006,2006
+82,40,Have Green - A Visual Analytics Framework for Large Semantic Graphs,VAST,2006,2006
+87,75,Exploring Large-Scale Video News via Interactive Visualization,VAST,2006,2006
+100,5,NetLens: Iterative Exploration of Content-Actor Network Data,VAST,2006,2006
+14,36,Monitoring Network Traffic with Radial Traffic Analyzer,VAST,2006,2006
+10,22,Toward a Multi-Analyst; Collaborative Framework for Visual Analytics,VAST,2006,2006
+24,61,Exploratory Visualization of Multivariate Data with Variable Quality,VAST,2006,2006
+87,75,Semantic Image Browser: Bridging Information Visualization with Automated Intelligent Image Analysis,VAST,2006,2006
+87,24,Semantic Image Browser: Bridging Information Visualization with Automated Intelligent Image Analysis,VAST,2006,2006
+75,24,Semantic Image Browser: Bridging Information Visualization with Automated Intelligent Image Analysis,VAST,2006,2006
+9,100,VAST 2006 Contest - A Tale of Alderwood,VAST,2006,2006
+89,13,ViSlang: A System for Interpreted Domain-Specific Languages for Scientific Visualization,SciVis,2014,2014
+89,77,ViSlang: A System for Interpreted Domain-Specific Languages for Scientific Visualization,SciVis,2014,2014
+13,77,ViSlang: A System for Interpreted Domain-Specific Languages for Scientific Visualization,SciVis,2014,2014
+25,38,Interactive Progressive Visualization with Space-Time Error Control,SciVis,2014,2014
+95,77,Sparse PDF Volumes for Consistent Multi-Resolution Volume Rendering,SciVis,2014,2014
+84,3,Curve Boxplot: Generalization of Boxplot for Ensembles of Curves,SciVis,2014,2014
+72,95,A Systematic Review on the Practice of Evaluating Visualization,SciVis,2013,2013
+76,67,Comparative Visual Analysis of Lagrangian Transport in CFD Ensembles,SciVis,2013,2013
+18,77,ConnectomeExplorer: Query-Guided Visual Analysis of Large Volumetric Neuroscience Data,SciVis,2013,2013
+84,3,Contour Boxplots: A Method for Characterizing Uncertainty in Feature Sets from Simulation Ensembles,SciVis,2013,2013
+1,97,ManyVis: Multiple Applications in an Integrated Visualization Environment,SciVis,2013,2013
+17,20,Semi-Automatic Vortex Extraction in 4D PC-MRI Cardiac Blood Flow Data using Line Predicates,SciVis,2013,2013
+13,89,Vessel Visualization using Curved Surface Reformation,SciVis,2013,2013
+65,44,A Principled Way of Assessing Visualization Literacy,InfoVis,2014,2014
+19,99,Attribute Signatures: Dynamic Visual Summaries for Analyzing Multivariate Geographical Data,InfoVis,2014,2014
+19,51,Attribute Signatures: Dynamic Visual Summaries for Analyzing Multivariate Geographical Data,InfoVis,2014,2014
+19,79,Attribute Signatures: Dynamic Visual Summaries for Analyzing Multivariate Geographical Data,InfoVis,2014,2014
+99,51,Attribute Signatures: Dynamic Visual Summaries for Analyzing Multivariate Geographical Data,InfoVis,2014,2014
+99,79,Attribute Signatures: Dynamic Visual Summaries for Analyzing Multivariate Geographical Data,InfoVis,2014,2014
+51,79,Attribute Signatures: Dynamic Visual Summaries for Analyzing Multivariate Geographical Data,InfoVis,2014,2014
+7,23,The Effects of Interactive Latency on Exploratory Visual Analysis,InfoVis,2014,2014
+89,95,Visual Parameter Space Analysis: A Conceptual Framework,InfoVis,2014,2014
+51,79,Moving beyond sequential design: Reflections on a rich multi-channel approach to data visualization,InfoVis,2014,2014
+72,65,The Influence of Contour on Similarity Perception of Star Glyphs,InfoVis,2014,2014
+44,72,Exploring the Placement and Design of Word-Scale Visualizations,InfoVis,2014,2014
+1,80,Combing the Communication Hairball: Visualizing Parallel Execution Traces using Logical Time,InfoVis,2014,2014
+18,77,NeuroLines: A Subway Map Metaphor for Visualizing Nanoscale Neuronal Connectivity,InfoVis,2014,2014
+79,19,Creative User-Centered Visualization Design for Energy Analysts and Modelers,InfoVis,2013,2013
+79,51,Creative User-Centered Visualization Design for Energy Analysts and Modelers,InfoVis,2013,2013
+19,51,Creative User-Centered Visualization Design for Energy Analysts and Modelers,InfoVis,2013,2013
+4,70,Empirical Guidance on Scatterplot and Dimension Reduction Technique Choices,InfoVis,2013,2013
+72,44,Hybrid-Image Visualization for Large Viewing Environments,InfoVis,2013,2013
+12,74,StoryFlow: Tracking the Evolution of Stories,InfoVis,2013,2013
+100,48,Visualizing Change over Time Using Dynamic Hierarchies: TreeVersity2 and the StemView,InfoVis,2013,2013
+5,72,Beyond Mouse and Keyboard: Expanding Design Considerations for Information Visualization Interactions,InfoVis,2012,2012
+5,59,Beyond Mouse and Keyboard: Expanding Design Considerations for Information Visualization Interactions,InfoVis,2012,2012
+72,59,Beyond Mouse and Keyboard: Expanding Design Considerations for Information Visualization Interactions,InfoVis,2012,2012
+12,64,RankExplorer: Visualization of Ranking Changes in Large Time Series Data,InfoVis,2012,2012
+12,30,RankExplorer: Visualization of Ranking Changes in Large Time Series Data,InfoVis,2012,2012
+64,30,RankExplorer: Visualization of Ranking Changes in Large Time Series Data,InfoVis,2012,2012
+51,72,Sketchy Rendering for Information Visualization,InfoVis,2012,2012
+51,79,Sketchy Rendering for Information Visualization,InfoVis,2012,2012
+51,19,Sketchy Rendering for Information Visualization,InfoVis,2012,2012
+72,79,Sketchy Rendering for Information Visualization,InfoVis,2012,2012
+72,19,Sketchy Rendering for Information Visualization,InfoVis,2012,2012
+79,19,Sketchy Rendering for Information Visualization,InfoVis,2012,2012
+27,53,Spatial Text Visualization Using Automatic Typographic Maps,InfoVis,2012,2012
+27,45,Spatial Text Visualization Using Automatic Typographic Maps,InfoVis,2012,2012
+53,45,Spatial Text Visualization Using Automatic Typographic Maps,InfoVis,2012,2012
+15,11,Stacking-Based Visualization of Trajectory Attribute Data,InfoVis,2012,2012
+5,59,Understanding Pen and Touch Interaction for Data Exploration on Interactive Whiteboards,InfoVis,2012,2012
+74,25,Visualizing Flow of Uncertainty through Analytical Processes,InfoVis,2012,2012
+1,97,Visualizing Network Traffic to Understand the Performance of Massively Parallel Simulations,InfoVis,2012,2012
+12,30,Whisper: Tracing the Spatiotemporal Process of Information Diffusion in Real Time,InfoVis,2012,2012
+72,44,A Study on Dual-Scale Data Charts,InfoVis,2011,2011
+51,79,BallotMaps: Detecting Name Bias in Alphabetically Ordered Ballot Papers,InfoVis,2011,2011
+51,19,BallotMaps: Detecting Name Bias in Alphabetically Ordered Ballot Papers,InfoVis,2011,2011
+79,19,BallotMaps: Detecting Name Bias in Alphabetically Ordered Ballot Papers,InfoVis,2011,2011
+65,14,CloudLines: Compact Display of Event Episodes in Multiple Time-Series,InfoVis,2011,2011
+15,11,Composite Density Maps for Multivariate Trajectories,InfoVis,2011,2011
+15,41,Composite Density Maps for Multivariate Trajectories,InfoVis,2011,2011
+11,41,Composite Density Maps for Multivariate Trajectories,InfoVis,2011,2011
+19,79,Exploring Uncertainty in Geodemographics with Interactive Graphics,InfoVis,2011,2011
+19,51,Exploring Uncertainty in Geodemographics with Interactive Graphics,InfoVis,2011,2011
+79,51,Exploring Uncertainty in Geodemographics with Interactive Graphics,InfoVis,2011,2011
+65,14,Quality Metrics in High-Dimensional Data Visualization: An Overview and Systematization,InfoVis,2011,2011
+12,30,TextFlow: Towards Better Understanding of Evolving Topics in Text,InfoVis,2011,2011
+12,30,FacetAtlas: Multifaceted Visualization for Rich Text Corpora,InfoVis,2010,2010
+7,39,Mental Models; Visual Reasoning and Interaction in Information Visualization: A Top-down Perspective,InfoVis,2010,2010
+4,18,MulteeSum: A Tool for Comparative Spatial and Temporal Gene Expression Data,InfoVis,2010,2010
+74,12,OpinionSeer: Interactive Visualization of Hotel Customer Feedback,InfoVis,2010,2010
+74,30,OpinionSeer: Interactive Visualization of Hotel Customer Feedback,InfoVis,2010,2010
+12,30,OpinionSeer: Interactive Visualization of Hotel Customer Feedback,InfoVis,2010,2010
+23,66,Perceptual Guidelines for Creating Rectangular Treemaps,InfoVis,2010,2010
+79,51,Rethinking Map Legends with Visualization,InfoVis,2010,2010
+79,19,Rethinking Map Legends with Visualization,InfoVis,2010,2010
+51,19,Rethinking Map Legends with Visualization,InfoVis,2010,2010
+5,59,SparkClouds: Visualizing Trends in Tag Clouds,InfoVis,2010,2010
+5,72,A Comparison of User-Generated and Automatic Graph Layouts,InfoVis,2009,2009
+5,58,A Comparison of User-Generated and Automatic Graph Layouts,InfoVis,2009,2009
+72,58,A Comparison of User-Generated and Automatic Graph Layouts,InfoVis,2009,2009
+19,79,Configuring Hierarchical Layouts to Address Research Questions,InfoVis,2009,2009
+19,51,Configuring Hierarchical Layouts to Address Research Questions,InfoVis,2009,2009
+79,51,Configuring Hierarchical Layouts to Address Research Questions,InfoVis,2009,2009
+72,59,Lark: Coordinating Co-located Collaboration with Information Visualization,InfoVis,2009,2009
+101,56,Mapping Text with Phrase Nets,InfoVis,2009,2009
+4,18,MizBee: A Multiscale Synteny Browser,InfoVis,2009,2009
+85,30,Scattering Points in Parallel Coordinates,InfoVis,2009,2009
+7,39,SellTrend: Inter-Attribute Visual Analysis of Temporal Transaction Data,InfoVis,2009,2009
+100,48,Temporal Summaries: Supporting Temporal Categorical Searching; Aggregation and Comparison,InfoVis,2009,2009
+7,39,Distributed Cognition as a Theoretical Framework for Information Visualization,InfoVis,2008,2008
+5,39,Effectiveness of Animation in Trend Visualization,InfoVis,2008,2008
+30,82,Geometry-Based Edge Clustering for Graph Visualization,InfoVis,2008,2008
+23,66,Graphical Histories for Visualization: Supporting Analysis; Communication; and Evaluation,InfoVis,2008,2008
+96,99,Interactive Visual Analysis of Set-Typed Data,InfoVis,2008,2008
+32,75,Multi-Focused Geospatial Analysis Using Probes,InfoVis,2008,2008
+32,34,Multi-Focused Geospatial Analysis Using Probes,InfoVis,2008,2008
+75,34,Multi-Focused Geospatial Analysis Using Probes,InfoVis,2008,2008
+53,44,Rolling the Dice: Multidimensional Visual Exploration using Scatterplot Matrix Navigation,InfoVis,2008,2008
+51,79,Spatially Ordered Treemaps,InfoVis,2008,2008
+72,59,Interactive Tree Comparison for Co-located Collaborative Information Visualization,InfoVis,2007,2007
+51,79,Interactive Visual Exploration of a Large Spatio-temporal Dataset: Reflections on a Geovisualization Mashup.,InfoVis,2007,2007
+51,19,Interactive Visual Exploration of a Large Spatio-temporal Dataset: Reflections on a Geovisualization Mashup.,InfoVis,2007,2007
+79,19,Interactive Visual Exploration of a Large Spatio-temporal Dataset: Reflections on a Geovisualization Mashup.,InfoVis,2007,2007
+34,75,Legible Cities: Focus-Dependent Multi-Resolution Visualization of Urban Relationships,InfoVis,2007,2007
+56,101,ManyEyes: a Site for Visualization at Internet Scale,InfoVis,2007,2007
+23,66,Scented Widgets: Improving Navigation Cues with Embedded Visualizations,InfoVis,2007,2007
+70,4,Spatialization Design: Comparing Points and Landscapes,InfoVis,2007,2007
+24,61,Measuring Data Abstraction Quality in Multiresolution Visualizations,InfoVis,2006,2006
+24,87,Measuring Data Abstraction Quality in Multiresolution Visualizations,InfoVis,2006,2006
+61,87,Measuring Data Abstraction Quality in Multiresolution Visualizations,InfoVis,2006,2006
+23,66,Multi-Scale Banking to 45 Degrees,InfoVis,2006,2006
+23,66,Software Design Patterns for Information Visualization,InfoVis,2006,2006
+82,40,Dynamic visualization of graphs with extended labels,InfoVis,2005,2005
+14,36,Importance-driven visualization layouts for large time series data,InfoVis,2005,2005
+24,61,Clutter Reduction in Multi-Dimensional Data Visualization Using Dimension Reordering,InfoVis,2004,2004
+92,41,EZEL: a Visual Tool for Performance Assessment of Peer-to-Peer File-Sharing Network,InfoVis,2004,2004
+82,40,IN-SPIRE InfoVis 2004 Contest Entry,InfoVis,2004,2004
+101,41,Interactive Visualization of Small World Graphs,InfoVis,2004,2004
+70,95,Rethinking Visualization: A High-Level Taxonomy,InfoVis,2004,2004
+87,24,Value and Relation Display for Interactive Exploration of High Dimensional Datasets,InfoVis,2004,2004
+87,61,Value and Relation Display for Interactive Exploration of High Dimensional Datasets,InfoVis,2004,2004
+24,61,Value and Relation Display for Interactive Exploration of High Dimensional Datasets,InfoVis,2004,2004
+82,40,Dynamic visualization of transient data streams,InfoVis,2003,2003
+87,24,Interactive hierarchical dimension ordering; spacing and filtering for exploration of high dimensional datasets,InfoVis,2003,2003
+87,61,Interactive hierarchical dimension ordering; spacing and filtering for exploration of high dimensional datasets,InfoVis,2003,2003
+24,61,Interactive hierarchical dimension ordering; spacing and filtering for exploration of high dimensional datasets,InfoVis,2003,2003
+61,24,Mapping nominal values to numbers for effective visualization,InfoVis,2003,2003
+101,41,Beamtrees: compact visualization of large hierarchies,InfoVis,2002,2002
+44,100,Interactive information visualization of a million items,InfoVis,2002,2002
+87,24,InterRing: an interactive tool for visually navigating and manipulating hierarchical structures,InfoVis,2002,2002
+87,61,InterRing: an interactive tool for visually navigating and manipulating hierarchical structures,InfoVis,2002,2002
+24,61,InterRing: an interactive tool for visually navigating and manipulating hierarchical structures,InfoVis,2002,2002
+96,99,Process visualization with levels of detail,InfoVis,2002,2002
+96,13,Process visualization with levels of detail,InfoVis,2002,2002
+99,13,Process visualization with levels of detail,InfoVis,2002,2002
+48,56,Ordered treemap layouts,InfoVis,2001,2001
+101,41,Visualization of state transition graphs,InfoVis,2001,2001
+82,40,Visualizing sequential patterns for text mining,InfoVis,2000,2000
+24,61,Navigating hierarchies with structure-based brushes,InfoVis,1999,1999
+82,40,Visualizing association rules for text mining,InfoVis,1999,1999
+60,22,FINESSE: a financial information spreadsheet,InfoVis,1996,1996

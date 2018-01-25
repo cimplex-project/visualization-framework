@@ -1,0 +1,168 @@
+<div id="isiSettings" class="col-sm-12">
+
+	<div id="isiSimulationLoginView" style="display: none;">
+		<div class="row">
+			<label class="col-sm-5">Username</label>
+			<div class="col-sm-3">
+				<input style="margin: 2px auto 2px 0px;" class="form-control" id="ndsIsiUsername">
+			</div>
+		</div>
+
+		<div class="row">
+			<label class="col-sm-5">Password</label>
+			<div class="col-sm-3">
+				<input style="margin: 2px auto 2px 0px;" class="form-control" id="ndsIsiPassword" type="password">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-5"></div>
+			<div class="col-sm-3">
+				<button type="button" class="btn btn-primary btn-block pull-right" id="ndsIsiLogin">Login</button>
+			</div>
+		</div>
+	</div>
+
+	<div id="isiSimulationListView" style="display: none;">
+		<div class="row">
+			<label class="col-sm-5">Simulation</label>
+			<div class="col-sm-7">
+				<select id="isiIdSelect" size="1">
+					{{#simulations}}
+					<option>{{.}}</option>
+					{{/simulations}}
+				</select>
+			</div>
+		</div>
+	</div>
+
+	<div id="isiSimulationEditView" style="display: none;">
+		<div class="row" style="margin: 10px 0px 5px 0px">
+			<label class="col-sm-5">
+				<b>Simulation Information</b>
+			</label>
+			<hr>
+		</div>
+
+		<div class="row">
+			<label class="col-sm-5">Status</label>
+			<div class="col-sm-7">
+				<div id="isiSimulationProgress" class="progress progress-striped active" style="margin: 0px">
+					<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="45" aria-valuemax="100" style="width: 100%; text-align: center;">
+						<span id="isiProgressText">Running</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-offset-5 col-sm-7">
+				<button id="isiInfo" type="button" class="btn btn-info pull-right" data-toggle="modal" data-target="#isiInformationDialog">
+					<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+				</button>
+				<button id="isiDelete" type="button" class="btn btn-danger pull-right">
+					<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<div id="isiCreateSimulationView" style="display: none;">
+		<div class="row" style="margin: 10px 0px 5px 0px">
+			<label class="col-sm-5">Create Simulation</label>
+			<hr>
+		</div>
+
+		<div class="row">
+			<label class="col-sm-5">Preset</label>
+			<div class="col-sm-7">
+				<select id="isiTemplateSelect" size="1">
+					{{#templates}}
+					<option>{{name}}</option>
+					{{/templates}}
+				</select>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-offset-5 col-sm-7">
+				<button id="isiCreate" type="button" class="btn btn-primary pull-right">
+					<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<div id="isiVisualizationSettingsView" style="display: none;">
+		<div class="row" style="margin: 10px 0px 5px 0px">
+			<label class="col-sm-5">Visualization Settings</label>
+			<hr>
+		</div>
+
+		<div class="row">
+			<label class="col-sm-5">Cases</label>
+			<div class="col-sm-7">
+				<select id="isiCaseSelect" size="1">
+					{{#cases}}
+					<option>{{.}}</option>
+					{{/cases}}
+				</select>
+			</div>
+		</div>
+
+		<div class="row">
+			<label class="col-sm-5">Output Compartment</label>
+			<div class="col-sm-7">
+				<select id="isiOutputSelect" size="1">}</select>
+			</div>
+		</div>
+
+		<div class="row">
+			<label class="col-sm-5">Travel Compartment</label>
+			<div class="col-sm-7">
+				<select id="isiTravelSelect" size="1"></select>
+			</div>
+		</div>
+	</div>
+
+	<div id="isiProgressView" style="display: none;">
+		<div class="row" style="margin: 10px 0px 5px 0px">
+			<div class="col-sm-offset-5 col-sm-7">
+				<hr>
+			</div>
+		</div>
+
+		<div class="row">
+			<label class="col-sm-5">Progress</label>
+			<div class="col-sm-7">
+				<div class="progress" style="margin: 0px">
+					<div id="isiProgressBar" class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+					    aria-valuemax="100">
+						<span class="sr-only">100% Complete</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="isiInformationDialog" class="modal fade" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document" style="left: 50%; margin-left: -300px; top: 50%; margin-top: -138px">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title">Simulation Information</h4>
+				</div>
+				<div class="modal-body">
+					<textarea id="isiInformationDialogContent" rows="20" cols="40" style="border:none; width: 100%; height: 100%;">
+					</textarea>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>

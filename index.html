@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS Styles from Frameworks -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- CSS Style from Components -->
+	<link rel="stylesheet" type="text/css" href="./style.css" />
+	<link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico" />
+
+	<!-- JavaScript Components (keep order intact!) -->
+	<!-- JavaScript Frameworks -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.14/d3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter2/1.4.0-alpha.5/crossfilter.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
+	<script src="http://cdn.rawgit.com/Sumbera/gLayers.Leaflet/master/L.CanvasLayer.js"></script>
+	<script src="http://cdn.rawgit.com/axismaps/colorbrewer/master/export/colorbrewer.js"></script>
+	<script src="http://cdn.rawgit.com/upphiminn/jLouvain/master/jLouvain.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/zip-js@0.0.2/WebContent/deflate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/zip-js@0.0.2/WebContent/zip.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/zip-js@0.0.2/WebContent/inflate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/zip-js@0.0.2/WebContent/z-worker.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.6.0/Sortable.min.js"></script>
+	<script src="./lib/dfkiDecoder/srdecoder.js"></script>
+	<script src="./lib/dfkiDecoder/gleamviz.js"></script>
+	
+	<!-- Internal Components -->
+	<script src="./lib/WebWorkerPool/WebWorkerPool.js"></script>
+
+	<script src="./lib/lib.js"></script>
+
+	<script src="./controller/globalVars.js"></script>
+
+	<script src="./lib/ui.js"></script>
+	<script src="./lib/vectorSimilarity/levenshteinSimilarity.js"></script>
+
+	<script src="./types/_regionType.js"></script>
+	<script src="./types/_transitionType.js"></script>
+	<script src="./types/_connectorType.js"></script>
+	<script src="./connector/visframework/visframework_connector.js"></script>
+	<script src="./types/_broadcaster.js"></script>
+	<script src="./types/_viewType.js"></script>
+
+	<!-- Connectors -->
+	<script src="./connector/mobility/mobility_connector.js"></script>
+
+	<script src="./connector/graphml/graphml_connector.js"></script>
+
+	<script src="./connector/nds_cnr/nds_cnr_connector.js"></script>
+	<script src="./connector/nds_cnr/nds_cnr_mapping.js"></script>
+	<script src="./connector/nds_cnr/nds_cnr_settings.js"></script>
+	<script src="./connector/nds_cnr/nds_cnr_tooltips.js"></script>
+
+	<script src="./connector/nds_isi/nds_isi_connector.js"></script>
+	<script src="./connector/nds_isi/nds_isi_filter.js"></script>
+	<script src="./connector/nds_isi/nds_isi_mapping.js"></script>
+	<script src="./connector/nds_isi/nds_isi_settings.js"></script>
+	<script src="./connector/nds_isi/nds_isi_tooltips.js"></script>
+	<script src="./connector/nds_isi/nds_isi_template_simulation.js"></script>
+
+	<script src="./connector/abm_isifbk/abm_isifbk_connector.js"></script>
+	<script src="./connector/abm_isifbk/abm_isifbk_mapping.js"></script>
+	<script src="./connector/abm_isifbk/abm_isifbk_settings.js"></script>
+	<script src="./connector/abm_isifbk/abm_isifbk_template_simulation.js"></script>
+
+	<script src="./connector/author_network/author_network_connector.js"></script>
+
+	<script src="./connector/cnr_data/cnr_data_connector.js"></script>
+	<script src="./connector/dummy/dummy_connector.js"></script>
+	<script src="./connector/dummy2/dummy_connector2.js"></script>
+	<script src="./connector/eurostat/eurostat_connector.js"></script>
+	<script src="./connector/grippenet/grippenet_connector.js"></script>
+	<script src="./connector/nasa/nasa_connector.js"></script>
+	<script src="./connector/oag/oag_connector.js"></script>
+
+	<!-- Config -->
+	<script src="./config/config.js"></script>
+
+	<!-- Views -->
+	<script src="./views/graph/graph.js"></script>
+	<script src="./views/timeline/timeline.js"></script>
+	<script src="./views/globe/globe.js"></script>
+	<script src="./views/map/map.js"></script>
+	<script src="./views/map/map_interaction.js"></script>
+	<script src="./views/matrix/matrix.js"></script>
+	<script src="./views/filterInfo/filterInfo.js"></script>
+	<script src="./views/scarfplot/scarfplot.js"></script>
+	<script src="./views/wordCloud/wordCloud.js"></script>
+	<script src="./views/settingsPanel/settingsPanel.js"></script>
+	<script>
+		SharedArrayBuffer = ArrayBuffer;
+	</script>
+	<script>
+		GleamViz.config.webworkerPath = "./lib/dfkiDecoder/";
+	</script>
+			 
+	<script src="./views/globe/fastlane.js"></script>
+	<script src="./views/globe/app.js"></script>
+
+	<!-- Data model -->
+	<script src="./dataModel/filteredData.js"></script>
+	<script src="./dataModel/aggregator.js"></script>
+	<script src="./dataModel/model.js"></script>
+	<script src="./dataModel/filter.js"></script>
+
+	<!-- Controller -->
+	<script src="./controller/mapping.js"></script>
+	<script src="./controller/init.js"></script>
+</head>
+
+<body>
+	<!-- page header with title and toolbar -->
+	<nav id="toolbar" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fuid">
+			<div class="navbar-header">
+				<button type="button" title="Menu" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+				 aria-controls="navbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand">
+					<img alt="" src="./img/cimplex.png">
+				</a>
+				<span id="pageTitle" class="navbar-brand"></span>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul id="toolbarLeft" class="nav navbar-nav"></ul>
+				<ul id="toolbarRight" class="nav navbar-nav navbar-right"></ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- container for views -->
+	<div id="pageContainer" class="container-fluid">
+		<div id="viewContainer" class="row">
+			<noscript>JavaScript must be enabled in order to use this application!</noscript>
+		</div>
+	</div>
+
+	<!-- a full sized panel with information on usage and contributors -->
+	<div id="infoText" style="display: none" class="row">
+		<a class="close" title="close" onclick="UI.hideInfoText()">&times;</a>
+
+		<h1>Visualization Framework</h1>
+
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+			<h2>Usage</h2>
+
+			<h3>Data Source, Simulation and Visualization Settings</h3>
+			<p>
+				In order to display any data, you first need to select a data source in the
+				<em>Data and Visualization Settings</em> view. Depending on the data source there may be multiple data sets to choose from.
+			</p>
+			<p>
+				Some data can be used in simulations, which can be chosen in the
+				<em>Epidemic Simulations</em> box.
+			</p>
+			<p>
+				The third option to choose is the visualization to use. For the VisFramework you can also select which views you want to
+				have enabled initially.
+			</p>
+
+			<h3>Toolbar</h3>
+			<p>
+				The buttons on the left can be used to show or hide views.
+			</p>
+			<p>
+				Current filters can be reset with the neighboring filter buttons: all
+				<i class="fa fa-eraser"></i>, time
+				<i class="fa fa-clock-o"></i>, regions
+				<i class="fa fa-dot-circle-o"></i>.
+			</p>
+			<p>
+				Community detection can be enabled and disabled with the community button
+				<i class="fa fa-users"></i>.
+			</p>
+			<p>
+				In order to switch to a layout optimized for a specific device type, click one of the device buttons
+				<i class="fa fa-mobile"></i>
+				<i class="fa fa-laptop"></i>
+				<i class="fa fa-tv"></i>.
+			</p>
+			<p>
+				Fullscreen mode can be toggled with the fullscreen button
+				<i class="glyphicon glyphicon-fullscreen"></i>.
+			</p>
+			<p>
+				The help button
+				<i class="fa fa-question-circle"></i> opens this popup.
+			</p>
+
+			<h3>Views</h3>
+			<p>
+				Views can be reordered by dragging their title bars.
+			</p>
+			<p>
+				Some views can be re-scaled or maximized using
+				<i class="fa fa-arrows-v"></i>,
+				<i class="fa fa-arrows-h"></i> and
+				<i class="fa fa-window-maximize"></i>,
+				<br> some offer interactive features through buttons in their title bar or settings panel
+				<i class="fa fa-cog"></i>.
+			</p>
+			<p>
+				Hovering over a view's title shows its info text containing information about the view and its usage.
+			</p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+			<h2>About</h2>
+
+
+			<h3>Cimplex Visualization | VIS Framework</h3>
+			<p>
+				<em>VIS, University of Stuttgart &amp; DFKI Saarbrücken</em>
+			</p>
+
+
+			<h3>CIMPLEX</h3>
+
+			<h4>Bringing CItizens, Models and Data together in Participatory, Interactive SociaL EXploratories</h4>
+
+			<p>
+				<a href="https://www.cimplex-project.eu/" title="CIMPLEX" target="_blank">
+					<img src="./img/cimplex.png">
+				</a>
+			</p>
+
+
+			<h3>Contributors</h3>
+
+			<p>
+				<div class="contributorLogo">
+					<a href="https://www.vis.uni-stuttgart.de/en/institute.html" title="University of Stuttgart" target="_blank">
+						<img src="./img/ustutt.png">
+						<br> University of Stuttgart
+					</a>
+				</div>
+				<div class="contributorLogo">
+					<a href="https://www.cnr.it/en" title="Consiglio Nazionale delle Ricerche" target="_blank">
+						<img src="./img/cnr.png">
+						<br> CNR
+					</a>
+				</div>
+				<div class="contributorLogo">
+					<a href="https://www.dfki.de/web?set_language=en&cl=en" title="Deutsches Forschungszentrum für Künstliche Intelligenz" target="_blank">
+						<img src="./img/dfki.png">
+						<br> DFKI
+					</a>
+				</div>
+				<div class="contributorLogo">
+					<a href="http://www.gleamviz.org/" title="GLEAMviz" target="_blank">
+						<img src="./img/gleamviz.png">
+						<br> GLEAMviz
+					</a>
+				</div>
+				<div class="contributorLogo">
+					<a href="http://www.isi.it/en/home" title="ISI Foundation" target="_blank">
+						<img src="./img/isi.svg">
+						<br> ISI Foundation
+					</a>
+				</div>
+				<div class="contributorLogo">
+					<a href="http://ec.europa.eu/eurostat/en" title="Eurostat" target="_blank">
+						<img src="./img/ic_explore_black_48dp_2x.png">
+						<br> Eurostat
+					</a>
+				</div>
+				<div class="contributorLogo">
+					<a href="https://de.grippenet.ch/" title="GrippeNet" target="_blank">
+						<img src="./img/grippenet.png">
+						<br> GrippeNet
+					</a>
+				</div>
+				<div class="contributorLogo">
+					<a href="https://www.nasa.gov/" title="NASA" target="_blank">
+						<img src="./img/ic_explore_black_48dp_2x.png">
+						<br> NASA
+					</a>
+				</div>
+				<div class="contributorLogo">
+					<a href="https://www.fbk.eu/en/" title="Fondazione Bruno Kessler" target="_blank">
+						<img src="./img/fbk.png">
+						<br> FBK
+					</a>
+				</div>
+				<div class="contributorLogo">
+					<a href="https://www.oag.com/" title="OAG" target="_blank">
+						<img src="./img/ic_explore_black_48dp_2x.png">
+						<br> OAG
+					</a>
+				</div>
+			</p>
+		</div>
+	</div>
+</body>
+
+</html>
