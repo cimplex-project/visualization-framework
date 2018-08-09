@@ -55,7 +55,7 @@ Help for a view is shown when hovering, clicking or tapping the view's title.
 
 Authors of this project (comprising ideas, architecture, and code) are:
 
-* Robert Krueger <krueger@g.harvard.edu>
+* Robert Krueger <krueger@g.harvard.edu> (krueger@vis.uni-stuttgart.de)
 * Sebastian Alberternst <sebastian.alberternst@dfki.de>
 * Frank Heyen <frank.heyen@outlook.de>
 * Jakub Krawczuk <jakubkrawczuk@gmail.com>
